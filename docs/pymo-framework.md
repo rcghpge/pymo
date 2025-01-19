@@ -258,4 +258,4 @@ print(result)  // Output: 4.0
 - Use tools to parse C headers and auto-generate the FFI bindings.
 
 
-Note: While the C programming langauge has been proven as an industry standard, the design of PyMo and its aim is to be language-agnostic while also strengethening the Mojo ecosystem as a cornerstone in programming languages.
+Note: While the C programming langauge has been proven as an industry standard, the design of PyMo and its aim is to become language-agnostic while also strengethening the Mojo ecosystem as a cornerstone in programming languages.
