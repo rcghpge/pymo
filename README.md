@@ -67,7 +67,7 @@ Here's how PyMo interacts with some well-known Python libraries:
 - **matplotlib:** For plotting.
 
 I will be testing and benchmarking more libraries in leveraging Mojo. A reminder
-that this is very much a proof of concept.
+that this is very much in a proof of concept stage project.
 
 ### Getting Started
 Check out `examples/` folder for sample scripts demonstrating how to use PyMo with various AI/ML/DL tasks.
