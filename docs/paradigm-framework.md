@@ -1,4 +1,4 @@
-# Pymo via Mojo's Programming Language Ecosystem 
+# PyMo via Mojo's Programming Language Ecosystem 
 
 ## PyMo and essentially the "bedrock" for Mojo's ecosystem:
 Based on my research, I have concluded 2 things. The 'bedrock' on which the Mojo programming language will be built on
