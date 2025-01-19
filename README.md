@@ -9,7 +9,9 @@ A framework in Mojo for AI/ML/DL applications and other domains.
 ## Overview
 PyMo is a framework designed to leverage the capabilities of the Mojo programming language. The goql is to 
 provide a seamless transition for Python developers into the realm of AI, Machine Learning, and Deep Learning 
-(AI/ML/DL) with the performance enhancements offered by Mojo.
+(AI/ML/DL), and other domains with the performance enhancements offered by Mojo. Since Mojo is designed as a 
+systems programming language, its capabilities go beyond just AI/ML/DL. This extends to PyMo as well - it can
+be leveraged in other domains. See `docs` for more information.
 
 **Current Status:** Work in Progress (WIP) - Proof of Concept
 
