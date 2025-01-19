@@ -20,7 +20,7 @@ Tooling includes, but probably are not limited to the following:
 - [XNU Kernel](https://github.com/apple-oss-distributions/xnu) Apple's default kernel
 
 Note: There are a lot more awesome tech stacks out there where Mojo can be leveraged, but this breakdown should suffice.
-This looks to be a robust pivot for research and development in the Mojo ecosystem.
+This looks to be a robust foundation for research and development of the Mojo ecosystem.
 
 ---
 ## Mojo: A Next-Generation Systems Programming Language - A Multi-Paradigm Perspective"
