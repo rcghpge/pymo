@@ -11,7 +11,7 @@ PyMo is a framework designed to leverage the capabilities of the Mojo programmin
 provide a seamless transition for Python developers into the realm of AI, Machine Learning, Deep Learning 
 (AI/ML/DL), and other domains - with the performance enhancements offered by Mojo. Since Mojo is designed as a 
 systems programming language, its capabilities go beyond just AI/ML/DL. This extends to PyMo as well - it can
-be leveraged in other domains. See `docs` for more information.
+be leveraged in other programming languages and domains. See `docs` for more information.
 
 **Current Status:** Work in Progress (WIP) - Proof of Concept
 
