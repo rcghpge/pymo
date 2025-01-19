@@ -6,7 +6,7 @@ are two-fold: the LLVM tech stack, and the Modular tech stack with Mojo as the f
 extensions of the Mojo ecosystem will be listed below. Mojo could essentially become a "bedrock" programming languange in a 
 sense similar to C, C++, and other systems programming languages. These are based on my hunches and research.
 
-- Pymo's 'bedrock' will essentially be built on the LLVM tech stack and the Modular tech stack.
+- PyMo's 'bedrock' will essentially be built on the LLVM tech stack and the Modular tech stack.
 
 Tooling includes, but probably are not limited to the following:
 - [[Mojo](https://docs.modular.com/mojo/manual/) documentation
