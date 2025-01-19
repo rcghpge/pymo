@@ -1,6 +1,6 @@
 # Notes
 
-# Pymo's Approach and Perspective:
+# PyMo's Approach and Perspective:
 In aligning with Modular's vision for the Mojo ecosystem, below is Mojo's current roadmap along with Modular's full tech
 stack which is part of Mojo's ecosystem. Tooling extensions documentation will also be listed for further reseach and development
 in building a robust systems programming language in Mojo for the Mojo community and broader Modular community - well the 
