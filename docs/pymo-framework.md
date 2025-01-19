@@ -257,4 +257,5 @@ print(result)  // Output: 4.0
 ### 3. Automate with Binding Generators:
 - Use tools to parse C headers and auto-generate the FFI bindings.
 
-Note: While C has been proven as an industry standard, the design of PyMo is aims to be language-agnostic while also building the Mojo ecosystem as a cornerstone in programming languages.
+
+Note: While the C programming langauge has been proven as an industry standard, the design of PyMo and its aim is to be language-agnostic while also strengethening the Mojo ecosystem as a cornerstone in programming languages.
