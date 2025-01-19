@@ -1,4 +1,4 @@
-# Pymo Architecture and Framework
+# PyMo Architecture and Framework
 This is an initial draft of PyMo.
 
 # Optimal Approach for FFI with Python
@@ -257,3 +257,4 @@ print(result)  // Output: 4.0
 ### 3. Automate with Binding Generators:
 - Use tools to parse C headers and auto-generate the FFI bindings.
 
+Note: While C has been proven as an industry standard, the design of PyMo is aims to be language-agnostic while also building the Mojo ecosystem as a cornerstone in programming languages.
