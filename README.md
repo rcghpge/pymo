@@ -34,7 +34,7 @@ To install and set up PyMo (on Linux), follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone YOUR_REPOSITORY_URL
+   git clone git@github.com:rcghpge/pymo.git
    cd pymo
    ```
 2. **Run Tests:**
