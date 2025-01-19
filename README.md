@@ -71,6 +71,10 @@ that this is very much a proof of concept.
 ### Getting Started
 Check out `examples/` folder for sample scripts demonstrating how to use PyMo with various AI/ML/DL tasks.
 
+**MAX**
+- check out [MAX](https://www.modular.com/max) an AI inference platform built by Modular
+- PyMo can be leveraged in this framework.
+
 ## Contributing
 Contributions are welcome! Here's how you can contribute:
 
