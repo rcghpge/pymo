@@ -1,4 +1,5 @@
 # Pymo Architecture and Framework
+This is an initial draft of PyMo.
 
 # Optimal Approach for FFI with Python
 
