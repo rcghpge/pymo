@@ -79,7 +79,7 @@ Check out `examples/` folder for sample code demonstrating how to use PyMo with 
 ## Contributing
 Contributions are welcome! Here's how you can contribute:
 
-- If you are interested to build out this project. Feel free to contact me.
+- If you are interested to build out this project. Feel free to contact me. See contact below.
 - Report bugs or request features by opening an issue.
 - Fix bugs or implement features by opening a pull request.
 - Please ensure your code adheres to the project's coding standards before submission.
