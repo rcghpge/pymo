@@ -1,7 +1,7 @@
 # PyMo
 
 **A framework in Mojo for AI/ML/DL applications**
-[Mojo 🔥](https://www.modular.com/mojo) programming language
+The [Mojo 🔥](https://www.modular.com/mojo)programming language
 - built by Modular Inc.
 
 ## Overview
@@ -80,7 +80,7 @@ Contributions are welcome! Here's how you can contribute:
 MIT License
 
 ## Acknowledgements
-- The Modular community. [Discord](https://discord.gg/sA9yYszz),[Forum](https://forum.modular.com/)
+- The Modular community. [Discord](https://discord.gg/sA9yYszz), [Forum](https://forum.modular.com/)
 - The Mojo Team for developing the Mojo language. Check out the cool tech being built @ [Modular](https://www.modular.com/)
 - Contributors and testers who helped in shaping PyMo.
 - The open source community.
