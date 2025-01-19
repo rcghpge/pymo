@@ -9,7 +9,7 @@ sense similar to C, C++, and other systems programming languages. These are base
 - PyMo's 'bedrock' will essentially be built on the LLVM tech stack and the Modular tech stack.
 
 Tooling includes, but probably are not limited to the following:
-- [[Mojo](https://docs.modular.com/mojo/manual/) documentation
+- [Mojo](https://docs.modular.com/mojo/manual/) documentation
 - [MLIR](https://mlir.llvm.org/) documentation
 - [Clang](https://clang.llvm.org/) documentation
 - [GCC](https://gcc.gnu.org/) documentation
