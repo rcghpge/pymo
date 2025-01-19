@@ -19,7 +19,7 @@ Tooling includes, but probably are not limited to the following:
 - [Linux Kernel](https://docs.kernel.org/) The Linux kernel documentation
 - [XNU Kernel](https://github.com/apple-oss-distributions/xnu) Apple's default kernel
 
-Note: There are a lot more awesome tech stacks out there where Mojo's can be leveraged, but this breakdown should suffice.
+Note: There are a lot more awesome tech stacks out there where Mojo can be leveraged, but this breakdown should suffice.
 This looks to be a robust pivot for research and development in the Mojo ecosystem.
 
 ---
