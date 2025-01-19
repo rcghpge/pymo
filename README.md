@@ -37,19 +37,19 @@ To install and set up PyMo (on Linux), follow these steps:
    git clone git@github.com:rcghpge/pymo.git
    cd pymo
    ```
-2. **Run Tests:**
-   ```bash
-   magic run test
-   ```
-3. **Format Code**
-   ```bash
-   magic run format
-   ```
-4. **Initialize PyMo environment with Magic**
+2. **Initialize PyMo environment with Magic**
    ```bash
    magic shell
    ```
-4. **Build & Ship Package(s) in Mojo (Optional)**
+3. **Run Tests:**
+   ```bash
+   magic run test
+   ```
+4. **Format Code**
+   ```bash
+   magic run format
+   ```
+5. **Build & Ship Package(s) in Mojo (Optional)**
    ```bash
    magic run build
    ```
