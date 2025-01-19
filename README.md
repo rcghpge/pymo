@@ -3,7 +3,7 @@
 A framework in Mojo for AI/ML/DL applications and other domains.
 
 ## An extended framework for Mojo:
-- The [Mojo 🔥](https://www.modular.com/mojo)programming language
+- The [Mojo🔥](https://www.modular.com/mojo)programming language
 - built by Modular Inc.
 
 ## Overview
