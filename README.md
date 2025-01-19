@@ -1,0 +1,91 @@
+# PyMo
+
+**A framework in Mojo for AI/ML/DL applications**
+[Mojo 🔥](https://www.modular.com/mojo) programming language
+- built by Modular Inc.
+
+## Overview
+
+PyMo is a framework designed to leverage the capabilities of the Mojo programming language. The goql is to 
+provide a seamless transition for Python developers into the realm of AI, Machine Learning, and Deep Learning 
+(AI/ML/DL) with the performance enhancements offered by Mojo.
+
+**Current Status:** Work in Progress (WIP) - Proof of Concept
+
+## Project Structure
+```
+├── init.🔥
+├── data/
+├── docs/
+├── examples/
+├── magic.lock
+├── mojoproject.toml
+├── pymo/
+├── src/
+├── test/
+└── test_pymo.🔥
+```
+
+## Installation & Setup
+To install and set up PyMo (on Linux), follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone YOUR_REPOSITORY_URL
+   cd pymo
+   ```
+2. **Run Tests:**
+   ```bash
+   magic run test
+   ```
+3. **Format Code**
+   ```bash
+   magic run format
+   ```
+4. **Initialize PyMo environment with Magic**
+   ```bash
+   magic shell
+   ```
+4. **Build & Ship Package in Mojo (Optional)**
+   ```bash
+   magic run build
+   ```
+## Features
+### Interoperability with Python:
+PyMo showcases Mojo's potential to become a superset of Python, focusing on enhancing Python's AI/ML/DL capabilities.
+
+### Integration with Popular Libraries:
+Here's how PyMo interacts with some well-known Python libraries:
+- **scikit-learn:** For machine learning models.
+- **pandas:** For data manipulation and analysis.
+- **numpy:** For numerical computing.
+- **seaborn:** For statistical data visualization.
+- **matplotlib:** For plotting.
+
+I will be testing and benchmarking more libraries in leveraging the Mojo programming language. A reminder
+that this is very much a proof of concept.
+
+### Getting Started
+Check out `examples/` folder for sample scripts demonstrating how to use PyMo with various AI/ML/DL tasks.
+
+## Contributing
+Contributions are welcome! Here's how you can contribute:
+
+- If you are interested to build out this project. Feel free to ping me.
+- Report bugs or request features by opening an issue.
+- Fix bugs or implement features by opening a pull request.
+- Please ensure your code adheres to the project's coding standards before submission.
+
+## License
+MIT License
+
+## Acknowledgements
+- The Modular community. [Discord](https://discord.gg/sA9yYszz) [Forum](https://forum.modular.com/)
+- The Mojo Team for developing the Mojo language. Check out the cool tech being built @ [Modular](https://www.modular.com/)
+- Contributors and testers who helped in shaping PyMo.
+- The open source community.
+
+## Contact
+For any queries or further information, please contact me [here](https://robertcocker.com).
+
+Happy coding with PyMo! 

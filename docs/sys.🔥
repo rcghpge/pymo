@@ -1,0 +1,21 @@
+# Pymo sys documentation - Goal is a robust sys package in Mojo for robust systems programming
+
+# See Modular documenation for sys package
+""" 
+https://docs.modular.com/mojo/stdlib/sys/
+
+- In order for Mojo to become a robust systems programming language, the builtin package is also highly 
+recommended via the simd and pointer modules in its continued research and development.
+"""
+
+# Mojo's sys package - Implements the sys package
+"""
+Modules within Mojo's sys package:
+- arg: Implements functions and variables for interacting with execution and system environment.
+- debug: This module includes the debug hook functions.
+- ffi: Implements a foreign functions interface (FFI).
+- info: Implements methods for querying the host target info.
+- intrinsics: Defines intrinsics.
+- param_env: Implements functions for retrieving compile-time defines.
+- terminate: This module includes the exit functions.
+"""
