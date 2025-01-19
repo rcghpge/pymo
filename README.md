@@ -55,7 +55,8 @@ To install and set up PyMo (on Linux), follow these steps:
    ```
 ## Features
 ### Interoperability with Python:
-PyMo showcases Mojo's potential to become a superset of Python, focusing on enhancing Python's AI/ML/DL capabilities.
+PyMo showcases Mojo's potential to become a superset of Python, focusing on enhancing Python's AI/ML/DL capabilities
+while providing a look into Mojo's domain-agnostic potential.
 
 ### Integration with Popular Libraries:
 Here's how PyMo interacts with some well-known Python libraries:
@@ -65,7 +66,7 @@ Here's how PyMo interacts with some well-known Python libraries:
 - **seaborn:** For statistical data visualization.
 - **matplotlib:** For plotting.
 
-I will be testing and benchmarking more libraries in leveraging the Mojo programming language. A reminder
+I will be testing and benchmarking more libraries in leveraging Mojo. A reminder
 that this is very much a proof of concept.
 
 ### Getting Started
