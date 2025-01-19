@@ -8,7 +8,7 @@ programming community in general lol
 
 - [Mojo](https://docs.modular.com/mojo/roadmap) roadmap & sharp edges
 - [MAX](https://docs.modular.com/max/) documentation
-- [Magic](https://docs.modular.com/magic/) documentation - Mojo's default 
+- [Magic](https://docs.modular.com/magic/) documentation - Mojo's package manager
 - [Pixi](https://pixi.sh/dev/) from the developers @ prefix.dev
 - [Python](https://docs.python.org/3/) documentation
 - [Rust](https://www.rust-lang.org/learn) documentation
