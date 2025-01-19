@@ -49,7 +49,7 @@ To install and set up PyMo (on Linux), follow these steps:
    ```bash
    magic shell
    ```
-4. **Build & Ship Package in Mojo (Optional)**
+4. **Build & Ship Package(s) in Mojo (Optional)**
    ```bash
    magic run build
    ```
