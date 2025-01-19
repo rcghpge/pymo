@@ -1,11 +1,11 @@
 # PyMo
+**A framework in Mojo for AI/ML/DL applications and other domains**
 
-**A framework in Mojo for AI/ML/DL applications**
-The [Mojo 🔥](https://www.modular.com/mojo)programming language
+## An extended framework for Mojo:
+- The [Mojo 🔥](https://www.modular.com/mojo)programming language
 - built by Modular Inc.
 
 ## Overview
-
 PyMo is a framework designed to leverage the capabilities of the Mojo programming language. The goql is to 
 provide a seamless transition for Python developers into the realm of AI, Machine Learning, and Deep Learning 
 (AI/ML/DL) with the performance enhancements offered by Mojo.
