@@ -21,7 +21,7 @@ OR
 - SWIG
 
 - optional - ffi for LLVM - MLIR?
-- LLVM leverages LLVM IR - an infrastructure through which to leverage FFI.
+- LLVM leverages LLVM IR - an infrastructure through which Mojo can leverage FFI.
 - Clang which is a compiler in the LLVM project has FFI functionality that can
 be leveraged.
 - llvm-objdump
