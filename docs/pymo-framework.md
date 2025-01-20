@@ -56,6 +56,21 @@ bind Python:
     def greet(name: str) -> str:
         return "Hello, " + name
 ```
+```mojo
+from python import Python
+
+fn main() raises:
+    let py_module = Python.compile(
+        """
+        def greet(name: str) -> str:
+            return "Hello, " + name
+        """
+    )
+    
+    let greet_func = py_module.greet
+    let result = greet_func("Mojo")
+    print(result)
+```
 
 ## 5. Support Python's GIL (Global Interpreter Lock)
 Python's GIL restricts concurrent execution of Python code. Your FFI layer must account for this when working with multithreaded systems.
