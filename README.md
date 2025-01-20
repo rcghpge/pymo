@@ -65,6 +65,7 @@ Here's how PyMo interacts with some well-known Python libraries:
 - **numpy:** For numerical computing.
 - **seaborn:** For statistical data visualization.
 - **matplotlib:** For plotting.
+- and more.
 
 I will be testing and benchmarking more libraries in leveraging Mojo. A reminder
 that this is very much in a proof of concept stage project.
