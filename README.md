@@ -76,6 +76,9 @@ Check out `examples/` folder for sample code demonstrating how to use PyMo with 
 - check out [MAX](https://www.modular.com/max) an AI inference platform built by Modular
 - PyMo can be leveraged in this framework.
 
+**Python**
+- If you are new to programming, see  [Python's](https://docs.python.org/3/) documentation. Python is an awesome programming language to get started with in programming.
+
 ## Contributing
 Contributions are welcome! Here's how you can contribute:
 
