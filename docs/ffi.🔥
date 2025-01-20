@@ -65,6 +65,7 @@ custom Python types
 - ABI Compatibility	                Adopt Python’s ABI to ensure seamless linking to Python libraries and compatibility with existing C-based extensions.
 - Binding Generators	                Create tools to automatically generate bindings for Python and your language, minimizing manual work.
 - JIT Compilation Hooks	                Integrate JIT compilation to dynamically optimize Python calls for high-performance use cases.
+- AOT Compilation with Optimization     Pre-compilation of code into machine-specific binaries before runtime, coupled with advanced optimization techniques.
 - Enhanced Safety Features	        Add static analysis tools to verify Python function signatures at compile time and enforce type safety.
 - Native Python-Like Syntax	        Support Python-like syntax in your language for rapid prototyping, while retaining systems-level performance and control.
 - Runtime Type Interoperability	        Implement a universal type system that seamlessly translates types between Python and your language.
