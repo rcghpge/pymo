@@ -22,7 +22,7 @@ Note: There are a lot more awesome tech stacks out there where Mojo can be lever
 This looks to be a robust foundation for research and development of the Mojo ecosystem.
 
 ---
-## Mojo: A Next-Generation Systems Programming Language - A Multi-Paradigm Perspective"
+## Mojo: A Next-Generation Systems Programming Language - A Multi-Paradigm Perspective
 - See [Wikipedia](https://en.wikipedia.org/wiki/Programming_paradigm) article for more detatils into programming languages 
 and paradigms.
 
