@@ -92,10 +92,10 @@ Contributions are welcome! Here's how you can contribute:
 MIT License
 
 ## Acknowledgements
+- The open source community.
 - The Modular community. [Discord](https://discord.gg/sA9yYszz), [Forum](https://forum.modular.com/)
 - The Mojo Team for developing the Mojo language.
 - Check out the cool tech being built @ [Modular](https://www.modular.com/)
-- The open source community.
 
 ## Contact
 For any queries or further information, please contact me [here](https://robertcocker.com).
