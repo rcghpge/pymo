@@ -166,7 +166,7 @@ foundation in its stdlib with packages such as `sys`, `builtin`, and modules suc
 implementation.
 
 ## Key Takeaways from C
-    Feature					                 Explanation
+Feature					                               Explanation
 - C ABI Compatibility	     Most programming languages and operating systems use the C ABI as a                              standard for interoperability. Ensure that your language adopts or                               supports the C ABI for seamless FFI.
 - Low-Level Control	         C provides direct access to memory, pointers and system calls.                                   Borrow this control while adding safety mechanisms like bounds.                                  checking or type enforcement.
 - Efficient Data Structures	 Use C’s struct and union as an optimal example method for.                                       representing raw, compact, and memory-efficient data structures.
@@ -206,7 +206,7 @@ language.
 
 ---
 ## Incorporating C into Your Language's FFI
-       C-Inspired Mechanism				       Implementation in Your Language
+C-Inspired Mechanism				         Implementation in Your Programming Language
 - C Function Declarations	         Use `extern "C"` to declare C functions for linking and                                          calling directly.
 - Automatic Binding Tools	         Create a tool similar to `bindgen` that auto-generates                                           bindings for C headers in your language.
 - Memory Safety Extensions	         Add safety layers like smart pointers or ownership models                                        on top of raw memory operations.
@@ -250,6 +250,5 @@ print(result)  // Output: 4.0
 ```
 ### 3. Automate with Binding Generators:
 - Use tools to parse C headers and auto-generate the FFI bindings.
-
 
 Note: While the C programming langauge has been proven as an industry standard, the design of PyMo and its aim is to become language-agnostic and domain-agnostic while also strengethening the Mojo ecosystem as a cornerstone in programming languages.
