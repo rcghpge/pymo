@@ -23,7 +23,7 @@ Modules within Mojo's sys package:
 # Notes
 """
 Possible PyMo extension of Mojo's sys package:
-- Compile to C/C++ (could be possible for extension and leveraging Mojo to other ecosystems eg Rust, Zig, and other systems programming 
+- Compile to C/C++ (could be possible for extension and leveraging Mojo to other ecosystems eg Rust, Zig, other systems programming 
 languages and others).
 - Leverage Cython via Cython wrappers - cdef and extern to .pyx file extensions.
 - Compile Cython code .pyx to .c via cythonize (C extension module)
