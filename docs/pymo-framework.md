@@ -107,7 +107,6 @@ To make your language more robust than existing systems programming languages, i
 
 ### Example
 ```plaintext
-Copy code
 def add(a: int, b: int) -> int:
     return a + b
 ```
@@ -179,7 +178,6 @@ implementation.
 - Features to allow Mojo to allow straightforward calls to C (other programming languages) functions with minimal boilerplate.
 - Example:
 ```plaintext
-Copy code
 extern "C" fn printf(format: *const char, ...) -> int
 printf("Hello, %s!\n", "World")
 ```
@@ -187,7 +185,6 @@ printf("Hello, %s!\n", "World")
 - Support importing and defining C-style structs, unions, and enums.
 - Example:
 ```plaintext
-Copy code
 struct Point {
     x: int32
     y: int32
@@ -232,7 +229,6 @@ C is the foundation for Python, Rust, Zig, and many other languages. By adopting
 ## Example Use Case: Wrapping a C Library
 - Suppose you have a C library:
 ```c
-Copy code
 // mathlib.c
 #include <math.h>
 
@@ -242,13 +238,11 @@ double square_root(double x) {
 
 ### 1. Compile the library:
 ```bash
-Copy code
 gcc -shared -o libmathlib.so -fPIC mathlib.c
 ```
 
 ### 2. Bind in your language:
 ```plaintext
-Copy code
 extern "C" fn square_root(x: float64) -> float64
 let result = square_root(16.0)
 print(result)  // Output: 4.0
