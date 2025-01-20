@@ -166,12 +166,12 @@ foundation in its stdlib with packages such as `sys`, `builtin`, and modules suc
 implementation.
 
 ## Key Takeaways from C
-    Feature								Explanation
-- C ABI Compatibility	Most programming languages and operating systems use the C ABI as a standard for interoperability. Ensure that your language adopts or supports the C ABI for seamless FFI.
-- Low-Level Control	C provides direct access to memory, pointers, and system calls. Borrow this control while adding safety mechanisms like bounds checking or type enforcement.
-- Efficient Data Structures	Use C’s struct and union as inspiration for representing raw, compact, and memory-efficient data structures in your language.
-- Shared Libraries	Dynamic linking of `.so` (Linux) and .`dll` (Windows) libraries is native to C. Make it straightforward to load and call shared libraries in your language.
-- Simplicity of FFI Bindings	C functions are easy to bind due to their simple signatures and lack of name mangling (compared to C++). Use this simplicity to streamline your language's FFI implementation.
+    Feature					                 Explanation
+- C ABI Compatibility	     Most programming languages and operating systems use the C ABI as a                              standard for interoperability. Ensure that your language adopts or                               supports the C ABI for seamless FFI.
+- Low-Level Control	         C provides direct access to memory, pointers and system calls.                                   Borrow this control while adding safety mechanisms like bounds.                                  checking or type enforcement.
+- Efficient Data Structures	 Use C’s struct and union as an optimal example method for.                                       representing raw, compact, and memory-efficient data structures.
+- Shared Libraries	         Dynamic linking of `.so` (Linux) and .`dll` (Windows) libraries is.                              native to C. Make it straightforward to load and call shared                                     libraries (in Mojo and other programming languages).
+- Simplicity of FFI Binding  C functions are easy to bind due to their simple signatures and.                                 lack of name mangling (compared to C++). Use this simplicity to                                  streamline your language's FFI implementation.
 
 ## Practical FFI Features Implemented by C
 ### 1. Direct Calling of C Functions
@@ -206,12 +206,12 @@ language.
 
 ---
 ## Incorporating C into Your Language's FFI
-C-Inspired Mechanism				Implementation in Your Language
-- C Function Declarations	Use `extern "C"` to declare C functions for linking and calling directly.
-- Automatic Binding Tools	Create a tool similar to `bindgen` that auto-generates bindings for C headers in your language.
-- Memory Safety Extensions	Add safety layers like smart pointers or ownership models on top of raw memory operations.
-- Modular Shared Library Linking	Provide built-in support for linking shared libraries without manual setup (e.g., `.so`, `.dll`).
-- C Standard Library Wrappers	Include a wrapper for commonly used C libraries (like `stdio.h`, `math.h`) to simplify interoperability.
+       C-Inspired Mechanism				       Implementation in Your Language
+- C Function Declarations	         Use `extern "C"` to declare C functions for linking and                                          calling directly.
+- Automatic Binding Tools	         Create a tool similar to `bindgen` that auto-generates                                           bindings for C headers in your language.
+- Memory Safety Extensions	         Add safety layers like smart pointers or ownership models                                        on top of raw memory operations.
+- Modular Shared Library Linking	 Provide built-in support for linking shared libraries                                            without manual setup (e.g., `.so`, `.dll`).
+- C Standard Library Wrappers	     Include a wrapper for commonly used C libraries (like                                            `stdio.h`, `math.h`) to simplify interoperability.
 
 ## Why C is Critical for FFI
 ### 1. Universal Adoption:
@@ -227,14 +227,15 @@ C's simplicity makes it easy to write bindings, enabling your language to intera
 C is the foundation for Python, Rust, Zig, and many other languages. By adopting its conventions, your language becomes inherently compatible with their FFI implementations.
 
 ## Example Use Case: Wrapping a C Library
-- Suppose you have a C library:
+Suppose you have a C library:
 ```c
 // mathlib.c
 #include <math.h>
 
 double square_root(double x) {
     return sqrt(x);
-}```
+}
+```
 
 ### 1. Compile the library:
 ```bash
