@@ -52,7 +52,6 @@ Develop a tool or module to automate the creation of bindings for Python. This i
 
 ### Example Syntax for Mojo Programming Language
 ```plaintext
-Copy code
 bind Python:
     def greet(name: str) -> str:
         return "Hello, " + name
