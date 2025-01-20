@@ -95,11 +95,15 @@ Mapping Table
 - For large data structures (e.g., arrays), use zero-copy memory sharing mechanisms (like `mmap`).
 
 ## 7. Leverage JIT Compilation
-If Mojo includes an optional JIT compiler, provide hooks to dynamically optimize Python calls.
+- If Mojo includes an optional JIT compiler, provide hooks to dynamically optimize Python calls.
+- fine-tuning feature(s)
+
 
 ### Robust Mojo compiling - with LLVM backend included.
 - Further research and development: Things like AOT (Ahead-of-time) compiling
 - AST (Abstract syntax trees), Code generation, Lexical analysis, Syntax/Semantic analysis/parsing
+- possible to fine-tune with feature(s)
+- check MLIR documentation
 
 ### Use Case
 - Inline Python functions for high-performance sections of the code.
@@ -129,9 +133,11 @@ def add(a: int, b: int) -> int:
 
 ## 3. Runtime Type Interoperability
 - Implement a universal type system that seamlessly translates between Python and your language.
+- could use feature(s)
 
 ## 4. Automatic Memory Management Interop
 - Bridge Python’s garbage collector with your language’s memory model.
+- provide a feature(s) for fine-tuning.
 
 ## 5. Multithreading with Python Libraries
 - Allow multithreaded access to Python libraries while handling Python's GIL internally.
