@@ -15,7 +15,7 @@ Tooling includes, but probably are not limited to the following:
 - [CPython](https://github.com/python/cpython) Python's default interpreter
 - [Python/C API](https://docs.python.org/3/c-api/) documentation
 - [Cython](https://cython.org/) documentation
-- The [PyPy](https://pypy.org) project
+- [PyPy](https://pypy.org) - an alternative to CPython
 - [Linux Kernel](https://docs.kernel.org/) The Linux kernel documentation
 - [XNU Kernel](https://github.com/apple-oss-distributions/xnu) Apple's default kernel
 
