@@ -23,7 +23,7 @@ to maximize performance and flexibility.
 - Developer Productivity: Provide intuitive tooling, robust debugging, and streamlined workflows for building complex systems.
 - Versatility Across Domains: Adaptable for embedded systems, AI/ML/DL, and industrial-grade applications.
 
-## For AI/ML/DL and Metaprogramming:
+## For AI/ML/DL, Systems Programming, and Metaprogramming:
 - Compute Optimization: Enable efficient numerical operations, parallelism, and direct hardware integration (e.g., GPUs, TPUs).
 - Predictable Performance: Support real-time, deterministic execution without runtime stalls.
 - Metaprogramming: Allow dynamic and compile-time code generation for optimized AI models and system configurations.
