@@ -19,3 +19,19 @@ Modules within Mojo's sys package:
 - param_env: Implements functions for retrieving compile-time defines.
 - terminate: This module includes the exit functions.
 """
+
+# Notes
+"""
+Possible PyMo extension of Mojo's sys package:
+- Compile to C/C++ (possibly Rust, Zig, and other systems programming languages)
+- Leverage Cython via Cython wrappers - cdef and extern to .pyx file extensions.
+- Compile Cython code .pyx to .c via cythonize (C extension module)
+- Python Integration: Use the compiled module in Python (ex - syspm Python module) to integrate into Mojo (via Mojo's python package eg 
+example Python.import_module("syspm"). Now, Python code can call into Mojo via Cython).
+- Testing and Debugging: Ensure everything works as expected. Use Python’s testing frameworks alongside Cython’s 
+debugging capabilities.
+- Performance: While Cython can significantly boost performance, this could affect performance overhead of calling into 
+Mojo which might vary based on how often these calls are made and how much data is transferred across the boundary.
+- Portability: For portability, make sure the C or C++ interfaces are portable if planning on using this across different programming 
+languages.
+"""
