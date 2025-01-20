@@ -15,10 +15,16 @@ OR
 - cffi - for C
 - cppffi - for C++
 - rffi - for Rust
-- pffi - for Python # Python takes precedence - since the
+- pffi - for Python 
 - zffi - for Zig
+- ctypes 
+- SWIG
 
 - optional - ffi for LLVM - MLIR?
+- LLVM leverages LLVM IR - an infrastructure through which to leverage FFI.
+- Clang which is a compiler in the LLVM project has FFI functionality that can
+be leveraged.
+- llvm-objdump
 """
 
 # Description
