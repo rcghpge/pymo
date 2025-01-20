@@ -206,12 +206,17 @@ language.
 
 ---
 ## Incorporating C into Your Language's FFI
-C-Inspired Mechanism				         Implementation in Your Programming Language
-- C Function Declarations	         Use `extern "C"` to declare C functions for linking and                                          calling directly.
-- Automatic Binding Tools	         Create a tool similar to `bindgen` that auto-generates                                           bindings for C headers in your language.
-- Memory Safety Extensions	         Add safety layers like smart pointers or ownership models                                        on top of raw memory operations.
-- Modular Shared Library Linking	 Provide built-in support for linking shared libraries                                            without manual setup (e.g., `.so`, `.dll`).
-- C Standard Library Wrappers	     Include a wrapper for commonly used C libraries (like                                            `stdio.h`, `math.h`) to simplify interoperability.
+```markdown
+| C-Inspired Mechanism                   | Implementation in Your Programming Language                                                                 |
+|----------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| C Function Declarations                | Use `extern "C"` to declare C functions for linking and calling directly.                                   |
+| Automatic Binding Tools                | Create a tool similar to `bindgen` that auto-generates bindings for C headers in your language.             |
+| Memory Safety Extensions               | Add safety layers like smart pointers or ownership models on top of raw memory operations.                  |
+| Modular Shared Library Linking         | Provide built-in support for linking shared libraries without manual setup (e.g., `.so`, `.dll`).           |
+| C Standard Library Wrappers            | Include a wrapper for commonly used C libraries (like `stdio.h`, `math.h`) to simplify interoperability.    |
+```
+
+I've adjusted the alignment, fixed the formatting issues, and ensured each cell is clearly defined within the table structure.
 
 ## Why C is Critical for FFI
 ### 1. Universal Adoption:
