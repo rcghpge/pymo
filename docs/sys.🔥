@@ -25,7 +25,7 @@ Modules within Mojo's sys package:
 Possible PyMo extension of Mojo's sys package:
 - Compile to C/C++ (could be possible for extension and leveraging Mojo to other ecosystems eg Rust, Zig, other systems programming 
 languages and others).
-- Leverage Cython via Cython wrappers - cdef and extern to .pyx file extensions.
+- Leverage Cython via Cython wrappers - cdef and extern to .pyx Cython source files
 - Compile Cython code .pyx to .c via cythonize (C extension module)
 - Python Integration: Use the compiled module in Python (ex - syspm Python module) to integrate into Mojo (via Mojo's python package eg 
 example Python.import_module("syspm"). Now, Python code can call into Mojo via Cython). The default bridge for Python currently is CPython
