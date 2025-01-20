@@ -83,7 +83,7 @@ Contributions are welcome! Here's how you can contribute:
 - Join the discussion. See repository's Discussions board.
 - Report bugs or request features by opening an issue.
 - Fix bugs or implement features by opening a pull request.
-- Please ensure your code adheres to the project's coding standards before submission.
+- Please ensure your code adheres to the project's and Mojo's coding standards before submission.
 
 ## License
 MIT License
