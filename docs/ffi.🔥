@@ -25,6 +25,7 @@ OR
 - Clang which is a compiler in the LLVM project has FFI functionality that can
 be leveraged.
 - llvm-objdump
+- MLIR: MLIR dialects, LLVM dialects, custom dialects.
 """
 
 # Description
