@@ -68,12 +68,13 @@ Python's GIL restricts concurrent execution of Python code. Your FFI layer must 
 Ensure data structures in your language map directly to Python types.
 
 Mapping Table
-Python Type	Language Type
-`int`		`int32`, `int64`
-`float`		`float32`, `float64`
-`str`		UTF-8 string
-`list`		Resizable array type
-`dict`		Hash map
+| Python Type | Language Type         |
+|-------------|-----------------------|
+| `int`       | `int32`, `int64`      |
+| `float`     | `float32`, `float64`  |
+| `str`       | UTF-8 string          |
+| `list`      | Resizable array type  |
+| `dict`      | Hash map              |
 
 ### Zero-Copy Mechanisms
 - For large data structures (e.g., arrays), use zero-copy memory sharing mechanisms (like `mmap`).
@@ -134,7 +135,6 @@ def add(a: int, b: int) -> int:
 
 ---
 # Theoretical Workflow
-
 ## 1. Define Python Bindings:
 - Create simple and expressive syntax for defining bindings.
 
@@ -166,12 +166,13 @@ foundation in its stdlib with packages such as `sys`, `builtin`, and modules suc
 implementation.
 
 ## Key Takeaways from C
-Feature					                               Explanation
-- C ABI Compatibility	     Most programming languages and operating systems use the C ABI as a                              standard for interoperability. Ensure that your language adopts or                               supports the C ABI for seamless FFI.
-- Low-Level Control	         C provides direct access to memory, pointers and system calls.                                   Borrow this control while adding safety mechanisms like bounds.                                  checking or type enforcement.
-- Efficient Data Structures	 Use C’s struct and union as an optimal example method for.                                       representing raw, compact, and memory-efficient data structures.
-- Shared Libraries	         Dynamic linking of `.so` (Linux) and .`dll` (Windows) libraries is.                              native to C. Make it straightforward to load and call shared                                     libraries (in Mojo and other programming languages).
-- Simplicity of FFI Binding  C functions are easy to bind due to their simple signatures and.                                 lack of name mangling (compared to C++). Use this simplicity to                                  streamline your language's FFI implementation.
+| Feature                               | Explanation                                                                                                                                                          |
+|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| C ABI Compatibility                   | Most programming languages and operating systems use the C ABI as a standard for interoperability. Ensure that your language adopts or supports the C ABI for seamless FFI. |
+| Low-Level Control                     | C provides direct access to memory, pointers, and system calls. Borrow this control while adding safety mechanisms like bounds checking or type enforcement.             |
+| Efficient Data Structures             | Use C's struct and union as an optimal example method for representing raw, compact, and memory-efficient data structures.                                            |
+| Shared Libraries                      | Dynamic linking of `.so` (Linux) and `.dll` (Windows) libraries is native to C. Make it straightforward to load and call shared libraries (in Mojo and other programming languages). |
+| Simplicity of FFI Binding             | C functions are easy to bind due to their simple signatures and lack of name mangling (compared to C++). Use this simplicity to streamline your language's FFI implementation. |
 
 ## Practical FFI Features Implemented by C
 ### 1. Direct Calling of C Functions
