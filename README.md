@@ -78,7 +78,7 @@ Check out `examples/` folder for sample code demonstrating how to use PyMo with 
 - PyMo can be leveraged in this framework.
 
 **Python**
-- If you are new to programming, check out [PyPi](https://pypi.org) - The Python Package Index. A repository of software for the Python programming language and see [Python](https://docs.python.org/3/) documentation.Python is an awesome programming language to get started with in programming.
+- If you are new to programming, check out [PyPi](https://pypi.org) - The Python Package Index. A repository of software for the Python programming language and also see [Python](https://docs.python.org/3/) documentation. Python is an awesome programming language to get started with in programming.
 
 ## Contributing
 Contributions are welcome! Here's how you can contribute:
