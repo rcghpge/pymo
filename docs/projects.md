@@ -11,6 +11,8 @@ LLVM is a compiler infrastructure project. - [Github](https://github.com/llvm)
 Software Foundation.
 - [The Linux Kernel](https://www.kernel.org/category/about.html): A mirror of the Unix operating system. - 
 [Github](https://github.com/torvalds/linux)
+- [NVIDIA Open Source](https://developer.nvidia.com/open-source): NVIDIA's open source initiative - 
+[Github](https://github.com/NVIDIA)
 
 ## Programming Languages:
 - [Python](https://www.python.org/about/): The Python programming language. - [Github](https://github.com/python)
