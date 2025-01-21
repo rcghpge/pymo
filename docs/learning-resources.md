@@ -1,5 +1,5 @@
 # A Curated List of Resources and Learning Material
-Here is a curated listed list of resources and learning material.
+Here is a curated list of resources and learning material.
 
 ---
 ## PyMo Philosophy in Programming 101:
