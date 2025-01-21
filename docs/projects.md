@@ -1,6 +1,5 @@
 # Projects
 ## Open Source:
-- [Python](https://www.python.org/about/): The Python programming language. - [Github](https://github.com/python)
 - [Anaconda Open Source](https://www.anaconda.com/open-source): Anaconda's 
 open source initiative - [Github](https://github.com/anaconda)
 - [Hugging Face](https://huggingface.co): Hugging Face's AI community for ML/DL. - [Github](https://github.com/huggingface)
@@ -12,4 +11,8 @@ LLVM is a compiler infrastructure project. - [Github](https://github.com/llvm)
 Software Foundation.
 - [The Linux Kernel](https://www.kernel.org/category/about.html): A mirror of the Unix operating system. - 
 [Github](https://github.com/torvalds/linux)
-- 
+
+## Programming Languages:
+- [Python](https://www.python.org/about/): The Python programming language. - [Github](https://github.com/python)
+- [Rust](https://www.rust-lang.org/): The Rust programming language. - [Github](https://github.com/rust-lang)
+- [Zig](https://ziglang.org/): The Zig programming language. - [Github](https://github.com/ziglang)
