@@ -15,14 +15,14 @@ Software Foundation.
 [Github](https://github.com/NVIDIA)
 
 ## Programming Languages:
-- [Python](https://www.python.org/about/) - [Github](https://github.com/python)
+- [Python](https://www.python.org/about/) - The Python programming language. - [Github](https://github.com/python)
 - [Rust](https://www.rust-lang.org/): The Rust programming language. - [Github](https://github.com/rust-lang)
 - [Zig](https://ziglang.org/): The Zig programming language. - [Github](https://github.com/ziglang)
 - [Mojo](https://www.modular.com/mojo): The Mojo programming language. - [Github](https://github.com/modular/mojo)
 - [C++](https://isocpp.org/): The C++ programming language. - [Github](https://github.com/cplusplus)
 - [C](https://www.open-std.org/jtc1/sc22/wg14/): The C programming language. The C standard is maintained by the
 [ISO](https://www.iso.org/standard/82075.html) - [Book](https://www.amazon.com/gp/aw/d/0131103628/ref=dp_ob_neva_mobile)
-- [Swift](https://swift.org/) - The 
+- [Swift](https://swift.org/) - The Swift programming language. - [Github](https://github.com/swiftlang/swift)
 
 
 
