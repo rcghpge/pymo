@@ -11,4 +11,4 @@ a programming language.
 ---
 ### Contribute to This List
 If you know of a resource that should be here, please open an issue or submit a 
-pull request at [PyMo Project GitHub](link-to-repo).
+pull request - [Pull Request](https://github.com/rcghpge/pymo/pulls)
