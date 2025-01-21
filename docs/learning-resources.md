@@ -2,12 +2,13 @@
 Here is a curated list of resources and learning material.
 
 ---
-## Mojo:
+## Programming Languages:
+**Mojo:**
 - [Python Integration](https://docs.modular.com/mojo/manual/python/) - This is the current integration
 of Python in Mojo. Mojo also has integration with [conda](https://docs.conda.io/projects/conda/en/latest/index.html) 
 which you can integrate MAX and Mojo to in projects and development.
 
-## C++:
+**C+:**
 - [Low-Level Programming](https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/index.html) -
 A how-to on building your own programming language, a basic JIT compiler, and a dive into low-level
 programming. It explains the concepts of how a programming language's paradigm is designed and 
