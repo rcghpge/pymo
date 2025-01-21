@@ -7,6 +7,8 @@ Here is a curated list of resources and learning material.
 - [Python Integration](https://docs.modular.com/mojo/manual/python/) - This is the current integration
 of Python in Mojo. Mojo also has integration with [conda](https://docs.conda.io/projects/conda/en/latest/index.html) 
 which you can integrate MAX and Mojo to in projects and development.
+- [Programming in Mojo](https://www.geeksforgeeks.org/mojo-programming-language-for-ai-developers/): 
+A primer of Mojo for open source development.
 
 **C+:**
 - [Low-Level Programming](https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/index.html) -
