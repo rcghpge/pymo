@@ -15,6 +15,11 @@ programming. It explains the concepts of how a programming language's paradigm i
 implemented in the C++ programming language.
 
 ---
+## Books:
+- [Crafting Interpreters](https://craftinginterpreters.com/) by Robert Nystrom
+- [The C Programming Language 2nd edition](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628) 
+by Brian W Kerningham and Dennis Ritchie
+---
 ### Contribute to This List
 If you know of a resource that should be here, please open an issue or submit a 
 [pull request](https://github.com/rcghpge/pymo/pulls)
