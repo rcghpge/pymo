@@ -27,7 +27,7 @@ to maximize performance and flexibility.
 - Compute Optimization: Enable efficient numerical operations, parallelism, and direct hardware integration (e.g., GPUs, TPUs).
 - Predictable Performance: Support real-time, deterministic execution without runtime stalls.
 - Metaprogramming: Allow dynamic and compile-time code generation for optimized AI models and system configurations.
-- Ecosystem Interoperability: Seamlessly integrate with AI frameworks (e.g., TensorFlow, ONNX) and existing ecosystems.
+- Ecosystem Interoperability: Seamlessly integrate with AI frameworks (e.g., TensorFlow, ONNX, MAX) and existing ecosystems.
 - Industrial-Grade Reliability: Focus on fault tolerance, scalability, and robust error handling for production-grade systems.
 
 For a high-performance, versatile language tailored for modern systems and AI-driven workloads.
