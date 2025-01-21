@@ -7,7 +7,7 @@ Here is a curated list of resources and learning material.
 - [Low-Level Programming](https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/index.html) -
 A how-to on building your own programming language, a basic JIT compiler, and a dive into low-level
 programming. It explains the concepts of how a programming language's paradigm is designed and 
-implemented.
+implemented C++.
 
 ---
 ### Contribute to This List
