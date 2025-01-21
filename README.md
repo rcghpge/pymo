@@ -97,7 +97,7 @@ MIT License
 
 ## Acknowledgements
 - The open source community.
-- The Modular community. [Discord](https://discord.gg/sA9yYszz), [Forum](https://forum.modular.com/)
+- The Modular community. [Discord](https://discord.gg/sA9yYszz), [forum](https://forum.modular.com/)
 - The Mojo Team for developing the Mojo language.
 - Check out the cool tech being built @ [Modular](https://www.modular.com/)
 
