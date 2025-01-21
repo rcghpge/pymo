@@ -4,7 +4,7 @@ Here is a curated list of resources and learning material.
 ---
 ## Mojo:
 - [Python Integration](https://docs.modular.com/mojo/manual/python/) - This is the current integration
-of Python in Mojo. Mojo also has integration with [conda](https://docs.conda.io/projects/conda/index.html) 
+of Python in Mojo. Mojo also has integration with [conda](https://docs.conda.io/projects/conda/en/latest/index.html) 
 which you can integrate MAX and Mojo to in projects and development.
 
 ## C++:
