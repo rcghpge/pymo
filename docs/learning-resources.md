@@ -8,7 +8,7 @@ A how-to on building your own programming language, a basic JIT compiler, and a 
 programming. It explains the concepts of designing and introducing paradigmatic programming into 
 a programming language.
 
-
+---
 ### Contribute to This List
 If you know of a resource that should be here, please open an issue or submit a 
 pull request at [PyMo Project GitHub](link-to-repo).
