@@ -71,7 +71,7 @@ I will be testing and benchmarking more libraries in leveraging Mojo. A reminder
 that this is very much in a proof of concept stage project.
 
 ### Getting Started
-Check out `examples/` and `test` folders for sample code demonstrating how to use PyMo with various AI/ML/DL tasks.
+Check out `examples/` and `test/` folders for sample code demonstrating how to use PyMo with various AI/ML/DL tasks.
 
 **MAX**
 - check out [MAX](https://www.modular.com/max) - an AI inference platform built by Modular
