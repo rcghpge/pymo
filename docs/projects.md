@@ -13,6 +13,8 @@ Software Foundation.
 [Github](https://github.com/torvalds/linux)
 - [NVIDIA Open Source](https://developer.nvidia.com/open-source): NVIDIA's open source initiative - 
 [Github](https://github.com/NVIDIA)
+- [The OpenJDK project](https://openjdk.org): A Java open source community initiative - 
+[Github](https://github.com/openjdk)
 
 ## Programming Languages:
 - [Python](https://www.python.org/about/) - The Python programming language. - [Github](https://github.com/python)
@@ -24,7 +26,7 @@ Software Foundation.
 [ISO](https://www.iso.org/standard/82075.html) - [Book](https://www.amazon.com/gp/aw/d/0131103628/ref=dp_ob_neva_mobile)
 - [Swift](https://swift.org/): The Swift programming language. - [Github](https://github.com/swiftlang/swift)
 - [Go](https://go.dev/): The Go programming language - [Github](https://github.com/golang)
-- [Java](https://openjdk.org/): The Java programming language - [Github](https://github.com/openjdk)
+- [Java](https://www.java.com/en/): The Java programming language. 
 
 
 
