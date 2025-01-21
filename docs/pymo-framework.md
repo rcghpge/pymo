@@ -60,15 +60,15 @@ bind Python:
 from python import Python
 
 fn main() raises:
-    let py_module = Python.compile(
+    var py_module = Python.compile(
         """
         def greet(name: str) -> str:
             return "Hello, " + name
         """
     )
     
-    let greet_func = py_module.greet
-    let result = greet_func("Mojo")
+    var greet_func = py_module.greet
+    var result = greet_func("Mojo")
     print(result)
 ```
 
