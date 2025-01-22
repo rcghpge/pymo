@@ -45,7 +45,7 @@ To install and set up PyMo (on Linux), follow these steps:
    ```bash
    magic run test
    ```
-4. **Format Code (Optional)**
+4. **Format Project's Code (Optional)**
    ```bash
    magic run format
    ```
