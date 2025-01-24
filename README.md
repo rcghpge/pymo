@@ -104,4 +104,4 @@ MIT License
 ## Contact
 For any queries or further information, please contact me [here](https://robertcocker.com).
 
-Happy coding with PyMo!🚀 
+---
