@@ -176,7 +176,7 @@ By combining features like static typing, memory safety, and ergonomic FFI with 
 - A universal systems and application programming language.
 - For Mojo to adopt the syntax of Python (that is, to make Mojo compatible with existing Python programs)
 - Integrate the CPython implementation for long-tail ecosystem support (CPython is Python's default interpreter. It is an 
-interpreted languag as opposed to Mojo which is a compiled language akin to C, C++, Rust, Zig, and so forth.)
+interpreted languag as opposed to Mojo which is a compiled language akin to C, C++, Rust, Zig, and so forth. There are extended frameworks of Python for leveraging compiling. This is a further tooling benefit for seamless integrations.)
 
 ---
 # C Programming Language FFI Aprroaches for Mojo
