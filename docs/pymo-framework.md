@@ -182,7 +182,7 @@ interpreted languag as opposed to Mojo which is a compiled language akin to C, C
 # C Programming Language FFI Aprroaches for Mojo
 C implements systems-level programming such as ABI (Application Binary Interface), an interface between two binary 
 program modules. Often, one of these modules is a library or operating system facility, and the other is a program 
-that is being run by a user. Sysems-level feature implementation such as ABI can help lay the 'bedrock' of Mojo's 
+that is being run by a user. Systems-level feature implementation such as ABI can help lay the 'bedrock' of Mojo's 
 foundation in its stdlib with packages such as `sys`, `builtin`, and modules such as `ffi` for FFI integration and
 implementation.
 
