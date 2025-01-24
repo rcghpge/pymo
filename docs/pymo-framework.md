@@ -4,16 +4,16 @@ This is an initial draft of PyMo.
 # Optimal Approach for FFI with Python
 
 ## 1. Build on Python’s C API
-The Python C API is the most robust and widely-used method to interoperate with Python. Use it as the foundation for your language's Python FFI layer.
+The Python C API is the most robust and widely-used method to interoperate with Python. It is possible to leverage this as part of the foundation for a programming language's Python FFI layer.
 
 ### How It Works
-- Use Python’s `PyObject` to represent Python objects in your language.
+- Use Python’s `PyObject` to represent Python objects in a language.
 - Wrap Python’s C API in abstractions that align with your language’s idioms.
 
 ### Features to Support
 - **Object Manipulation**: Create, modify, and access Python objects.
-- **Function Calls**: Call Python functions from your language.
-- **Exception Handling**: Translate Python exceptions into your language’s error-handling model.
+- **Function Calls**: Call Python functions from Mojo.
+- **Exception Handling**: Translate Python exceptions into your language's error-handling model.
 
 ---
 
