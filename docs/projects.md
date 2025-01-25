@@ -1,6 +1,6 @@
 # Projects
 ## Open Source:
-- [Jupyter](https://jupyter.org): The Jupyter Project
+- [Jupyter](https://jupyter.org): The Jupyter Project - [Github](https://github.com/jupyter)
 - [Anaconda Open Source](https://www.anaconda.com/open-source): Anaconda's 
 open source initiative - [Github](https://github.com/anaconda)
 - [Hugging Face](https://huggingface.co): Hugging Face's AI community for ML/DL. - [Github](https://github.com/huggingface)
