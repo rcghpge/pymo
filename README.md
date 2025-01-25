@@ -102,6 +102,6 @@ MIT License
 - Check out the cool tech being built @ [Modular](https://www.modular.com/)
 
 ## Contact
-For any queries or further information, please contact me [here](https://robertcocker.com).
+For any queries or further information, you can find my email in contacts [here](https://robertcocker.com).
 
 ---
