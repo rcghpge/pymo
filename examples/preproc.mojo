@@ -45,7 +45,7 @@ fn main() raises:
     # Convert string columns to float
     """
     Pandas community active development of Pandas may trigger
-    some notes in future Pandas releases.
+    some notes for future Pandas releases.
     """
     for column in df.columns:
         df[column] = pd.to_numeric(df[column], errors="coerce")
