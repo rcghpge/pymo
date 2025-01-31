@@ -1,7 +1,7 @@
 # Inferences and Applications in Cancer Research
 """
 Here is an initial example of how to build out an ML model or neural network
-framework in PyMo. Sparing the details, data preprocessing is crucial ML and DL
+framework in PyMo. Sparing the details, data preprocessing is crucial in ML and DL
 domains. This is an example where the framework can be utilized for applications
 in cancer research and other domains in medicine.
 """ 
