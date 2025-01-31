@@ -7,7 +7,7 @@ fn main() raises:
     var plt = Python.import_module("matplotlib.pyplot")
     var math = Python.import_module("math")
 
-    # Load and read datasets
+    # Load and read datasets - update file paths as needed 
     df = pd.read_csv(
         "~/modular/pymo/data/cancer-data/training.csv"
     )  # dataset for training model
