@@ -24,9 +24,8 @@ be leveraged in other programming languages and domains. See `docs` for more inf
 ├── magic.lock
 ├── mojoproject.toml
 ├── pymo/
-├── src/
 ├── test/
-└── test_pymo.🔥
+└── test_pymo.mojo
 ```
 
 ## Installation & Setup
