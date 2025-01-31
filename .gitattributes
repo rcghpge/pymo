@@ -8,9 +8,7 @@ magic.lock linguist-language=YAML linguist-generated=true
 *.mojo linguist-language=Mojo
 
 # Fire emoji files (.🔥) for Linguist to detect Mojo programming language
-*.$🔥 linguist-language=Mojo
 *.🔥 linguist-language=Mojo
-*🔥 linguist-language=Mojo
 *.$'\UF1525’ linguist-language=Mojo
 
 # Handle Unicode-specific file extensions and treat them as plain text
