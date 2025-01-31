@@ -29,5 +29,5 @@ fn test_libm() raises:
     var end = perf_counter_ns()
     var elapsed_ns = end - start
     var elapsed_ms = elapsed_ns / 1000000
-    print("Testing libm module...")
+    print("Testing libm package...")
     print("SUCCESS - Execution time: " + str(elapsed_ms) + " ms")
