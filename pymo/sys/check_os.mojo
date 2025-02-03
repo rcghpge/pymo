@@ -13,4 +13,4 @@ fn get_operating_system() -> String:
 
 fn main() raises:
     var os_name = get_operating_system()
-    print(f"Operating System: {os_name}")
+    print("Operating System: {os_name}")
