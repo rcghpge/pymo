@@ -92,13 +92,18 @@ Contributions are welcome! Here's how you can contribute:
 - Please ensure your code adheres to the project's and Mojo's coding standards before submission.
 
 ## License
-MIT License
+
+The PyMo project is primarily licensed under the [MIT License](./LICENSE).
+
+Additionally, the project includes third-party components with their respective licenses:
+
+- **LLVM**: Components utilized from LLVM are licensed under the Apache License v2.0 with LLVM Exceptions. See the LLVM [License](https://llvm.org/LICENSE.txt).
+
+- **MAX and Mojo**: Usage and distribution are licensed under the [MAX & Mojo Community License](https://www.modular.com/legal/max-mojo-license).
 
 ## Acknowledgements
 - The open source community.
-- The Modular community. [Discord](https://discord.gg/sA9yYszz), [forum](https://forum.modular.com/)
-- The Mojo Team for developing the Mojo language.
-- Check out the cool tech being built @ [Modular](https://www.modular.com/)
+- The Mojo and Python community.
 
 ## Contact
 For any inqueries or further information, you can find my email in contacts [here](https://robertcocker.com).
