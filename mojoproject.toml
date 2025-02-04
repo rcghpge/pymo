@@ -1,5 +1,5 @@
 [project]
-authors = ["rcghpge <rcocker87@gmail.com>"]
+authors = ["Robert Cocker <https://robertcocker.com>"]
 channels = ["conda-forge", "https://conda.modular.com/max"]
 description = "A framework in Mojo for AI/ML/DL and other domains."
 name = "PyMo"
