@@ -95,7 +95,7 @@ Contributions are welcome! Here's how you can contribute:
 
 The PyMo project is primarily licensed under the [MIT License](./LICENSE).
 
-Additionally, the project includes third-party components with their respective licenses:
+Additionally, this project also incorporates components, each governed by its respective license:
 
 - **LLVM**: Components utilized from LLVM are licensed under the Apache License v2.0 with LLVM Exceptions. See the LLVM [License](https://llvm.org/LICENSE.txt).
 
