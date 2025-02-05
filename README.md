@@ -102,8 +102,8 @@ Additionally, PyMo also incorporates components, each governed by its respective
 - **MAX and Mojo**: Usage and distribution are licensed under the [MAX & Mojo Community License](https://www.modular.com/legal/max-mojo-license).
 
 ## Acknowledgements
-- The open source community.
 - The Mojo and Python community.
+- The open source community.
 
 ## Contact
 For any inqueries or further information, you can find my email in contacts [here](https://robertcocker.com).
