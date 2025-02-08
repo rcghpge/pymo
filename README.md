@@ -43,6 +43,7 @@ To install and set up PyMo (on Linux), follow these steps:
 3. **Run Test(s):**
    ```bash
    magic run test
+   mojo test
    ```
 4. **Format Project's Code (Optional)**
    ```bash

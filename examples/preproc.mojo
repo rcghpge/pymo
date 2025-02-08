@@ -23,13 +23,13 @@ fn main() raises:
     # Layout of features for training dataset - Numpy interop
     print("Numpy Interop:")
     var numerical_features = df.select_dtypes(include=[np.number])
-    #var categorical_features = df.select_dtypes(include=[object])
+    # var categorical_features = df.select_dtypes(include=[object])
     """ 
     OOP methods needed for categorical data.
     """
     num_numerical_values = numerical_features.shape[1]
-    num_categorical_values = ("OOP methods WIP")
-    #num_categorical_values = categorical_features.shape[1]
+    num_categorical_values = "OOP methods WIP"
+    # num_categorical_values = categorical_features.shape[1]
 
     print("Total number of numerical features:", num_numerical_values)
     print("Total number of categorical features:", num_categorical_values)
@@ -52,6 +52,8 @@ fn main() raises:
 
     # Seaborn - data visualization
     var correlation_matrix = df.corr()
-    sns.heatmap(correlation_matrix, annot=True, cmap="viridis", linewidth=0.5, fmt=".2f")
-    plt.title('Housing Prices', fontsize=16)
+    sns.heatmap(
+        correlation_matrix, annot=True, cmap="viridis", linewidth=0.5, fmt=".2f"
+    )
+    plt.title("Housing Prices", fontsize=16)
     plt.show()

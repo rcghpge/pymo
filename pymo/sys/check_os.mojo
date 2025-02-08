@@ -1,5 +1,6 @@
 from sys.info import *
 
+
 fn get_os_system() -> String:
     if os_is_linux():
         return "Linux"
@@ -10,6 +11,7 @@ fn get_os_system() -> String:
     else:
         return "Unknown OS"
 
+
 fn get_target_arch() -> String:
     if is_32bit():
         return "32-bit"
@@ -18,15 +20,16 @@ fn get_target_arch() -> String:
     elif is_x86():
         return "x86 architecture"
     else:
-        return"Failed to detect system architecture"
+        return "Failed to detect system architecture"
+
 
 fn get_processors() -> String:
     if is_amd_gpu():
-        return("AMD")
+        return "AMD"
     elif has_nvidia_gpu_accelerator():
         return "NVIDIA GPU accelerator equipped"
     elif is_nvidia_gpu():
-        return("NVIDIA GPU")
+        return "NVIDIA GPU"
     elif is_apple_m1():
         return "Apple M1"
     elif is_apple_m2():
@@ -34,7 +37,8 @@ fn get_processors() -> String:
     elif is_apple_m3():
         return "Apple M3"
     else:
-        return "Failed to detect microprocessors"  
+        return "Failed to detect microprocessors"
+
 
 fn main() raises:
     var os_name = get_os_system()
@@ -44,4 +48,3 @@ fn main() raises:
     print("Operating System:", os_name)
     print("System Architecture:", os_arch)
     print("Microprocessor System:", os_proc)
-
