@@ -1,6 +1,3 @@
-> [!NOTE]
-> Work in Progress (WIP) - Proof of Concept
-
 # PyMo
 
 A framework in Mojo for AI/ML/DL applications and other domains.
@@ -8,6 +5,9 @@ A framework in Mojo for AI/ML/DL applications and other domains.
 ## An extended framework for Mojo:
 - The [Mojo🔥](https://www.modular.com/mojo)programming language
 - Mojo is built by Modular Inc. and the Mojo community.
+
+> [!NOTE]
+> Work in Progress (WIP) - Proof of Concept
 
 ## Overview
 PyMo is a framework designed to leverage the capabilities of the Mojo programming language. The goal is to 
