@@ -56,7 +56,7 @@ To install and set up PyMo (on Linux), follow these steps:
    # Initialize REPL environment
    mojo repl
    ```
-4. **Open a Jupyter Notebook environment (Optional)**
+4. **Open a Jupyter Notebook Environment (Optional)**
    ```bash
    magic run jupyter notebook
    ```
