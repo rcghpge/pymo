@@ -42,10 +42,11 @@ To install and set up PyMo (on Linux), follow these steps:
    ```
 3. **Run Test(s):**
    ```bash
+   # Workflow/Development environment
    magic run test
    mojo test
 
-   # Debug PyMo environment
+   # Initialize debugging session
    mojo test --debug
    ```
 4. **Open a Jupyter Notebook environment:**
