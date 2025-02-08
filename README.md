@@ -80,8 +80,7 @@ Here's how PyMo interacts with some well-known Python libraries and frameworks:
 - **matplotlib:** For plotting visualizations.
 - and more.
 
-Currently testing and benchmarking frameworks and libraries. A reminder
-that this is very much in a proof of concept stage project.
+Currently proofing, testing, and benchmarking frameworks and libraries.
 
 ### Getting Started
 Check out `examples/` and `test/` folders for sample code demonstrating how to use PyMo with various AI/ML/DL tasks and initial framework draft of PyMo.
