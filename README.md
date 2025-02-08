@@ -48,6 +48,9 @@ To install and set up PyMo (on Linux), follow these steps:
 
    # Initialize debugging session
    mojo test --debug
+
+   # Initialize REPL environment
+   mojo repl
    ```
 4. **Open a Jupyter Notebook environment:**
    ```bash
