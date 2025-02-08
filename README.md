@@ -1,3 +1,6 @@
+> [!NOTE]
+> Work in Progress (WIP) - Proof of Concept
+
 # PyMo
 
 A framework in Mojo for AI/ML/DL applications and other domains.
@@ -13,7 +16,6 @@ provide a seamless transition for Python developers into the realm of AI, Machin
 systems programming language, its capabilities go beyond AI/ML/DL. This extends to PyMo as well - it can
 be leveraged in other programming languages and domains. See `docs` for more information.
 
-**Current Status:** Work in Progress (WIP) - Proof of Concept
 
 ## Project Structure
 ```
@@ -70,7 +72,7 @@ PyMo showcases Mojo's potential to become a superset of Python, focusing on enha
 while providing a glimpse into Mojo's language and domain-agnostic potential.
 
 ### Integration with Popular Libraries:
-Here's how PyMo interacts with some well-known Python libraries:
+Here's how PyMo interacts with some well-known Python libraries and frameworks:
 - **scikit-learn:** For machine learning models.
 - **pandas:** For data manipulation and analysis.
 - **numpy:** For numerical computing.
@@ -78,7 +80,7 @@ Here's how PyMo interacts with some well-known Python libraries:
 - **matplotlib:** For plotting visualizations.
 - and more.
 
-I will be testing and benchmarking more libraries in leveraging Mojo. A reminder
+Currently testing and benchmarking frameworks and libraries. A reminder
 that this is very much in a proof of concept stage project.
 
 ### Getting Started
