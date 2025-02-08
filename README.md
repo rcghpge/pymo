@@ -45,11 +45,15 @@ To install and set up PyMo (on Linux), follow these steps:
    magic run test
    mojo test
    ```
-4. **Format Project's Code (Optional)**
+4. **Open a Jupyter Notebook environment:**
+   ```bash
+   magic run jupyter notebook
+   ```
+5. **Format Project's Code (Optional)**
    ```bash
    magic run format
    ```
-5. **Build & Ship Package(s) and Module(s) in Mojo (Optional)**
+6. **Build & Ship Package(s) and Module(s) in Mojo (Optional)**
    ```bash
    magic run build
    ```
@@ -107,6 +111,6 @@ Additionally, PyMo also incorporates components, each governed by its respective
 - The open source community.
 
 ## Contact
-For any inqueries or further information, you can find my email in contacts [here](https://robertcocker.com).
+For any inquiries or further information, you can find my email in contacts [here](https://robertcocker.com).
 
 ---
