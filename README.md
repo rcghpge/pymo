@@ -8,7 +8,7 @@ A framework in Mojo for AI/ML/DL applications and other domains.
 
 ---
 > [!NOTE]
-> Work in Progress (WIP) - Proof of Concept
+> Work in Progress - Proof of Concept
 ---
 
 ## Overview
