@@ -6,9 +6,11 @@ A framework in Mojo for AI/ML/DL applications and other domains.
 - The [Mojo🔥](https://www.modular.com/mojo)programming language
 - Mojo is built by Modular Inc. and the Mojo community.
 
+---
 > [!NOTE]
 > Work in Progress (WIP) - Proof of Concept
 ---
+
 ## Overview
 PyMo is a framework designed to leverage the capabilities of the Mojo programming language. The goal is to 
 provide a seamless transition for Python developers into the realm of AI, Machine Learning, Deep Learning 
