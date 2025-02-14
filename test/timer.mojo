@@ -1,6 +1,6 @@
 # Mojo's time package
 from time import perf_counter_ns
-
+from collections.string import String
 
 # Main function:
 fn main() raises:
@@ -9,4 +9,4 @@ fn main() raises:
     var end = perf_counter_ns()
     var elapsed_ns = end - start
     var elapsed_ms = elapsed_ns / 1000000
-    print("Execution time: " + str(elapsed_ms) + " ms")
+    print("Execution time: " + String(elapsed_ms) + " ms")

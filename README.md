@@ -35,7 +35,10 @@ be leveraged in other programming languages and domains. See `docs` for more inf
 ## Installation & Setup
 To install and set up PyMo (on Linux), follow these steps:
 
-1. **Clone the repository:**
+1. **Install Magic Build System & Package Manager:**
+See Magic documentation for installation instructions: [Magic docs](https://docs.modular.com/magic/)
+
+2. **Clone the repository:**
    ```bash
    git clone git@github.com:rcghpge/pymo.git
    cd pymo

@@ -1,6 +1,6 @@
 from time import perf_counter_ns
 from builtin.io import print
-from builtin.str import str
+from collections.string import String
 from python import Python
 from testing import *
 
@@ -46,4 +46,4 @@ fn test_pymo() raises:
     var elapsed_ms = elapsed_ns / 1000000
 
     print()
-    print("SUCCESS - Execution time: " + str(elapsed_ms) + " ms")
+    print("SUCCESS - Execution time: " + String(elapsed_ms) + " ms")

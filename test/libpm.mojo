@@ -1,4 +1,5 @@
 from builtin import file
+from collections.string import String
 from python import Python
 from time import perf_counter_ns
 
@@ -30,4 +31,4 @@ fn pd() raises:
     var elapsed_ns = end - start
     var elapsed_ms = elapsed_ns / 1000000
     print("Testing libpm package...")
-    print("SUCCESS - Execution time: " + str(elapsed_ms) + " ms")
+    print("SUCCESS - Execution time: " + String(elapsed_ms) + " ms")
