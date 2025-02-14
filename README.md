@@ -43,11 +43,11 @@ See Magic documentation for installation instructions: [Magic docs](https://docs
    git clone git@github.com:rcghpge/pymo.git
    cd pymo
    ```
-2. **Initialize PyMo environment with Magic**
+3. **Initialize PyMo environment with Magic**
    ```bash
    magic shell
    ```
-3. **Run Test(s):**
+4. **Run Test(s):**
    ```bash
    # Workflow/Development environment
    magic run test
@@ -59,15 +59,15 @@ See Magic documentation for installation instructions: [Magic docs](https://docs
    # Initialize REPL environment
    mojo repl
    ```
-4. **Open a Jupyter Notebook Environment (Optional)**
+5. **Open a Jupyter Notebook Environment (Optional)**
    ```bash
    magic run jupyter notebook
    ```
-5. **Format Project's Code (Optional)**
+6. **Format Project's Code (Optional)**
    ```bash
    magic run format
    ```
-6. **Build & Ship Package(s) and Module(s) in Mojo (Optional)**
+7. **Build & Ship Package(s) and Module(s) in Mojo (Optional)**
    ```bash
    magic run build
    ```
