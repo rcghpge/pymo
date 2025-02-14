@@ -35,19 +35,19 @@ be leveraged in other programming languages and domains. See `docs` for more inf
 ## Installation & Setup
 To install and set up PyMo (on Linux), follow these steps:
 
-1. **Install Magic Build System & Package Manager:**
+**Install Magic Build System & Package Manager:**
 See Magic documentation for installation instructions: [Magic docs](https://docs.modular.com/magic/)
 
-2. **Clone the repository:**
+**Clone the repository:**
    ```bash
    git clone git@github.com:rcghpge/pymo.git
    cd pymo
    ```
-3. **Initialize PyMo environment with Magic**
+**Initialize PyMo environment with Magic**
    ```bash
    magic shell
    ```
-4. **Run Test(s):**
+**Run Test(s):**
    ```bash
    # Workflow/Development environment
    magic run test
@@ -59,15 +59,15 @@ See Magic documentation for installation instructions: [Magic docs](https://docs
    # Initialize REPL environment
    mojo repl
    ```
-5. **Open a Jupyter Notebook Environment (Optional)**
+**Open a Jupyter Notebook Environment (Optional)**
    ```bash
    magic run jupyter notebook
    ```
-6. **Format Project's Code (Optional)**
+**Format Project's Code (Optional)**
    ```bash
    magic run format
    ```
-7. **Build & Ship Package(s) and Module(s) in Mojo (Optional)**
+**Build & Ship Package(s) and Module(s) in Mojo (Optional)**
    ```bash
    magic run build
    ```
