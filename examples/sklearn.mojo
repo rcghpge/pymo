@@ -84,6 +84,15 @@ fn generate_models() raises:
     print()
 
     # Decision Tree Metrics
+    """
+    Initial Model 2 performance metrics do not look accurate. ML/DL
+    fundamentals would tell you that if a model or neural network's
+    performance metrics such as total model accuracy is 100% accurate,
+    this is an automatic red flag to recheck the model or nn for 
+    overfitting, underfitting, and other criteria. Yes, syntactic machine
+    learning and deep learning can be a thing.
+    """
+
     var accuracy = metrics.accuracy_score(y_test, predictions2)
     var report = metrics.classification_report(y_test, predictions2)
 
