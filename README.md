@@ -45,9 +45,9 @@ To install and set up PyMo (on Linux), follow these steps:
    cd pymo
    ```
 **Initialize PyMo environment with Magic**
-- If some packages or libraries are not installed try example Magic commands below
+- Add and install packages and librairies (optional).
    ```bash
-   # Initialize PyMo environment via Magic
+   # Initialize PyMo
    magic shell
 
    # Install and add packages and libraries
