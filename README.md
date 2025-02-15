@@ -45,7 +45,7 @@ To install and set up PyMo (on Linux), follow these steps:
    cd pymo
    ```
 **Initialize PyMo environment with Magic**
-- Add and install packages and librairies (optional).
+- Add and install packages and librairies (optional)
    ```bash
    # Initialize PyMo
    magic shell
@@ -65,7 +65,7 @@ To install and set up PyMo (on Linux), follow these steps:
    # Initialize REPL environment
    mojo repl
    ```
-**Open a Jupyter Notebook Environment (Optional)**
+**Initialize a Jupyter Notebook Environment (Optional)**
    ```bash
    magic run jupyter notebook
    ```
