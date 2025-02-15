@@ -1,7 +1,7 @@
 """
-This PyMo example of the Sci-kit Learn framework in Mojo was pulled from a Medium article
+This PyMo example of the Scikit-learn framework in Mojo was pulled from a Medium article
 tutorial on building your first machine learning model in Python. Authorship attribution:
-[Muhammad Taha](https://rajataha.vercel.app/)
+Muhammad Taha - https://rajataha.vercel.app/
 """
 
 # PyMo Sci-kit Learn Example   
@@ -107,7 +107,7 @@ fn generate_models() raises:
     # Define parameter grid 
     """
     Hyperparameter tuning and fine-tuning in Mojo is still unheard of currently 
-    I believe. This may be a few of the first implementations of Sci-Kit Learn in Mojo.
+    I believe. This may be a few of the first implementations of Scikit-learn in Mojo.
     """
     #var pymax = Python.import_module("max.python").attr("Python")
     var param_grid = Python.dict()
