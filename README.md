@@ -50,7 +50,7 @@ To install and set up PyMo (on Linux), follow these steps:
    # Initialize PyMo
    magic shell
 
-   # Install and add packages and libraries
+   # Add additional dependencies
    magic add xgboost
    ```
 **Run Test(s)**
