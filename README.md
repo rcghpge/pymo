@@ -38,7 +38,6 @@ To install and set up PyMo (on Linux), follow these steps:
 
 **Install Magic Build System & Package Manager**
 - See Magic documentation for installation instructions: [Magic docs](https://docs.modular.com/magic/)
-- If some packages or libraries not installed try
 **Clone the repository**
    ```bash
    git clone git@github.com:rcghpge/pymo.git
@@ -50,7 +49,7 @@ To install and set up PyMo (on Linux), follow these steps:
    magic shell
 
    # Install and add packages and libraries
-   magic add basalt
+   magic add xgboost
    ```
 **Run Test(s)**
    ```bash
