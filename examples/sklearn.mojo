@@ -4,7 +4,7 @@ tutorial on building your first machine learning model in Python. Authorship att
 Muhammad Taha - https://rajataha.vercel.app
 """
 
-# PyMo Sci-kit Learn Example   
+# PyMo Scikit-learn Example   
 from collections.dict import Dict 
 from collections.list import List 
 from python import Python, PythonObject, TypedPythonObject 
