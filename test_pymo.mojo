@@ -3,7 +3,7 @@ from builtin.io import print
 from collections.string import String
 from python import Python
 from testing import *
-
+from examples.sklearn import generate_models
 
 # Testing pymo package
 fn main() raises:
@@ -12,7 +12,7 @@ fn main() raises:
 
 
 fn test_pymo() raises:
-    print("Testing pymo environment...")
+    print("Testing PyMo environment...")
     print()
 
     # Mojo's time library
@@ -26,7 +26,7 @@ fn test_pymo() raises:
     var data = np.random.randn(10, 3)
     var columns = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
     var df = pd.DataFrame(data, columns)
-    print("Numpy and Pandas libraries test results:")
+    print("Testing Numpy and Pandas frameworks:")
     print("Dataframe:")
     print(df)
     print()
@@ -39,7 +39,10 @@ fn test_pymo() raises:
     print("House Prices Dataset:")
     var df2 = pd.read_csv("data/house_prices.csv")
     print(df2)
+    print()
 
+    print("Testing Sci-kit Learn framework")
+    generate_models()
     # Track time
     var end = perf_counter_ns()
     var elapsed_ns = end - start

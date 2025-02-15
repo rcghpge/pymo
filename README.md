@@ -9,6 +9,10 @@ A framework in Mojo for AI/ML/DL applications and other domains.
 ---
 > [!NOTE]
 > Work in Progress - Proof of Concept
+
+Currently running on
+- Magic v0.7.0
+- Mojo v25.1.0
 ---
 
 ## Overview
@@ -37,15 +41,19 @@ To install and set up PyMo (on Linux), follow these steps:
 
 **Install Magic Build System & Package Manager**
 - See Magic documentation for installation instructions: [Magic docs](https://docs.modular.com/magic/)
-
+- If some packages or libraries not installed try
 **Clone the repository**
    ```bash
    git clone git@github.com:rcghpge/pymo.git
    cd pymo
    ```
 **Initialize PyMo environment with Magic**
+- If some packages or libraries are not installed try example Magic commands below
    ```bash
    magic shell
+
+   # Install and add packages and libraries
+   magic add basalt
    ```
 **Run Test(s)**
    ```bash
