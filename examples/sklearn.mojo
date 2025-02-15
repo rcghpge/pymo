@@ -1,7 +1,7 @@
 """
 This PyMo example of the Scikit-learn framework in Mojo was pulled from a Medium article
 tutorial on building your first machine learning model in Python. Authorship attribution:
-Muhammad Taha - https://rajataha.vercel.app/
+Muhammad Taha - https://rajataha.vercel.app
 """
 
 # PyMo Sci-kit Learn Example   
