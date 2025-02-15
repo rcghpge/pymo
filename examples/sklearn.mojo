@@ -1,4 +1,10 @@
-# PyMo Sci-kit Learn Model Example
+"""
+This PyMo example of the Sci-kit Learn framework in Mojo was pulled from a Medium article
+tutorial on building your first machine learning model in Python. Authorship attribution:
+[Muhammad Taha](https://rajataha.vercel.app/)
+"""
+
+# PyMo Sci-kit Learn Example   
 from collections.dict import Dict 
 from collections.list import List 
 from python import Python, PythonObject, TypedPythonObject 
