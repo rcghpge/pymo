@@ -10,9 +10,7 @@ A framework in Mojo for AI/ML/DL applications and other domains.
 > [!NOTE]
 > Work in Progress - Proof of Concept
 
-Currently running on
-- Magic v0.7.0
-- Mojo v25.1.0
+Currently running on Mojo v25.1.0, Magic v0.7.0
 ---
 
 ## Overview
