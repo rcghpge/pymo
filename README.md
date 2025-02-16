@@ -31,7 +31,8 @@ be leveraged in other programming languages and domains. See `docs` for more inf
 ├── pymo/
 ├── test/
 ├── test_pymo.mojo
-└── LICENSE
+├── LICENSE
+└── README.md
 ```
 
 ## Installation & Setup
