@@ -37,6 +37,7 @@ be leveraged in other programming languages and domains. See `docs` for more inf
 To install and set up PyMo (on Linux), follow these steps:
 
 **Install Magic Build System & Package Manager**
+- If your machine does not have Modular's build system and package manager Magic, you may need to install it on your local machine.
 - See Magic documentation for installation instructions: [Magic docs](https://docs.modular.com/magic/).
 
 **Clone the repository**
