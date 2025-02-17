@@ -98,6 +98,7 @@ Here's how PyMo interacts with some well-known Python libraries and frameworks:
 - **numpy:** For numerical computing.
 - **seaborn:** For statistical data visualization.
 - **matplotlib:** For plotting visualizations.
+- **pytest** Testing framework for Python.
 - and more.
 
 Currently proofing, testing, and benchmarking frameworks and libraries.
