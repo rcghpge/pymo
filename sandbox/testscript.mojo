@@ -24,9 +24,14 @@ fn test_script() raises:
 
 
 fn test_libpm() raises:
-    var np = numpy
-    var c = np.array([1, 2, 3, 4, 5, 6])
-    print(c.shape)
+    """
+    I wanted to see if I could call Python/NumPy from Mojo via a variable. Nope lol. The docs state
+    that variables in Mojo contain a value or object. Not sure if OOP can be leveraged here.
+    """ 
+    #var np = numpy
+    #var c = np.array([1, 2, 3, 4, 5, 6])
+    #print(c.shape)
+    pass
 
 
 fn main() raises:
