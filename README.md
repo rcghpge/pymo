@@ -33,6 +33,7 @@ be leveraged in other programming languages and domains. See `docs` for more inf
 ├── mojoproject.toml
 ├── pymo
 ├── sandbox
+├── .github
 ├── test
 └── test_pymo.mojo
 ```
