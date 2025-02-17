@@ -1,13 +1,28 @@
+"""
+MIT License
+
+Copyright (c) 2024 Hylke Donker
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+This module is from the Bridge package developed by the Mojo community.
+See the original repository here: https://gitlab.com/hylkedonker/bridge
+
+Bridge currently runs on an older version of MAX so I could not add it to PyMo's build currently.
+"""
 from libpm import get_numpy
 from python import Python, PythonObject
 from tensor import Tensor, TensorShape, TensorSpec
 from utils.index import Index
 
-"""
-This module is from the Bridge package from the Mojo community. Bridge currently runs on an older 
-version of MAX so I could not add it to PyMo's build currently. Authorship attribution. See Bridge's
-repository here: https://gitlab.com/hylkedonker/bridge
-"""
 
 def _integer_list(iterable: PythonObject) -> List[Int]:
     """Convert iterable PythonObject of intergers to integer list."""
@@ -16,6 +31,7 @@ def _integer_list(iterable: PythonObject) -> List[Int]:
         out.append(Int(item))
     return out
 
+
 def _tensor_shape_to_pylist(shape: TensorShape) -> PythonObject:
     """Convert TensorShape to python integer list (for np.reshape)."""
     out_list = Python.evaluate("[]")
@@ -23,7 +39,10 @@ def _tensor_shape_to_pylist(shape: TensorShape) -> PythonObject:
         out_list.append(shape[i])
     return out_list
 
-fn ndarray_to_tensor[T: DType = DType.float64](array_numpy: PythonObject) raises -> Tensor[T]:
+
+fn ndarray_to_tensor[
+    T: DType = DType.float64
+](array_numpy: PythonObject) raises -> Tensor[T]:
     """Convert NumPy float array to a mojo tensor of same shape.
     Args:
         array_numpy: Numpy ndarray to convert to mojo tensor.
@@ -46,6 +65,7 @@ fn ndarray_to_tensor[T: DType = DType.float64](array_numpy: PythonObject) raises
     var out = out_flat.reshape(TensorShape(out_shape))
     return out
 
+
 def tensor_to_ndarray(tensor_mojo: Tensor) -> PythonObject:
     """Convert mojo tensor to NumPy array.
     Args:
@@ -67,4 +87,3 @@ def tensor_to_ndarray(tensor_mojo: Tensor) -> PythonObject:
     # Reshape flat array to match tensor shape.
     var out_shape = _tensor_shape_to_pylist(tensor_mojo.shape())
     return np_flat.reshape(out_shape)
-

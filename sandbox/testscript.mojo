@@ -9,4 +9,3 @@ fn main() raises:
     var a = np.array([1, 2, 3])
     print("NumPy Array:")
     print(a)
-
