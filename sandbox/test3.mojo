@@ -1,5 +1,6 @@
 from pymo.sys.os import get_os, get_arch, get_processors
 
+
 # Sys module
 fn main() raises:
     var os_name = get_os()

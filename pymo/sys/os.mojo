@@ -38,5 +38,3 @@ fn get_processors() -> String:
         return "Apple M3"
     else:
         return "Failed to detect microprocessors"
-
-

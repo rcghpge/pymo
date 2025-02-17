@@ -1,5 +1,6 @@
 from pymo.libpm import get_numpy
 
+
 # Libpm module
 fn main() raises:
     var np = get_numpy()
