@@ -1,1 +1,1 @@
-from .libpm import get_numpy, get_pandas
+from .libpm import get_numpy
