@@ -74,7 +74,7 @@ fn main() raises:
     var end = perf_counter_ns()
     var elapsed_ns = end - start
     var elapsed_ms = elapsed_ns / 1000000
-    print("Testing libpm package...")
+    print("Testing libpm module...")
     print("SUCCESS - Execution time: " + String(elapsed_ms) + " ms")
 
     # Notes

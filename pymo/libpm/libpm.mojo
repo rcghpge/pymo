@@ -5,7 +5,7 @@ from time import perf_counter_ns
 from testing import *
 
 
-# Libpm package
+# Libpm module
 fn main() raises:
     # time runtime execution
     var start = perf_counter_ns()
@@ -27,5 +27,5 @@ fn main() raises:
     var end = perf_counter_ns()
     var elapsed_ns = end - start
     var elapsed_ms = elapsed_ns / 1000000
-    print("Importing libpm package...")
+    print("Importing libpm module...")
     print("SUCCESS - Execution time: " + String(elapsed_ms) + " ms")

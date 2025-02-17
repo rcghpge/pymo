@@ -12,7 +12,7 @@ fn test_pymo() raises:
     print("Testing PyMo environment...")
     print()
 
-    # Mojo's time library
+    # Mojo's time package
     var start = perf_counter_ns()
 
     # Import Python libraries
@@ -40,6 +40,7 @@ fn test_pymo() raises:
 
     print("Testing Sci-kit Learn framework")
     generate_models()
+
     # Track time
     var end = perf_counter_ns()
     var elapsed_ns = end - start

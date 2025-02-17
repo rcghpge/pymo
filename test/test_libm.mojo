@@ -4,11 +4,6 @@ from python import Python
 from time import perf_counter_ns
 
 
-# Main execution of code
-fn main() raises:
-    test_libm()
-
-
 fn test_libm() raises:
     # time runtime execution
     var start = perf_counter_ns()
@@ -30,5 +25,10 @@ fn test_libm() raises:
     var end = perf_counter_ns()
     var elapsed_ns = end - start
     var elapsed_ms = elapsed_ns / 1000000
-    print("Testing libm package...")
+    print("Testing libm module...")
     print("SUCCESS - Execution time: " + String(elapsed_ms) + " ms")
+
+
+# Main execution of code
+fn main() raises:
+    test_libm()
