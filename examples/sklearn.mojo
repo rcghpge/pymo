@@ -4,10 +4,11 @@ tutorial on building your first machine learning model in Python. Authorship att
 Muhammad Taha - https://rajataha.vercel.app
 """
 
-# PyMo Scikit-learn Example   
-from collections.dict import Dict 
-from collections.list import List 
-from python import Python, PythonObject, TypedPythonObject 
+# PyMo Scikit-learn Example
+from collections.dict import Dict
+from collections.list import List
+from python import Python, PythonObject, TypedPythonObject
+
 
 fn generate_models() raises:
     # Import Packages/Libraries
@@ -26,10 +27,9 @@ fn generate_models() raises:
 
     var sklearn_models = Python.import_module("sklearn.model_selection")
 
-
     # Split the data into training and testing sets
-    var X = data.drop('target', axis=1)
-    var y = data['target']
+    var X = data.drop("target", axis=1)
+    var y = data["target"]
 
     var train_test_split = sklearn_models.train_test_split
     var split_result = train_test_split(X, y, test_size=0.2, random_state=42)
@@ -104,21 +104,22 @@ fn generate_models() raises:
     var dt2 = Python.import_module("sklearn.tree")
     var grid_search = Python.import_module("sklearn.model_selection")
 
-    # Define parameter grid 
+    # Define parameter grid
     """
     Hyperparameter tuning and fine-tuning in Mojo is still unheard of currently 
     I believe. This may be a few of the first implementations of Scikit-learn in Mojo.
     """
-    #var pymax = Python.import_module("max.python").attr("Python")
+    # var pymax = Python.import_module("max.python").attr("Python")
     var param_grid = Python.dict()
 
     param_grid["criterion"] = Python.evaluate('["gini", "entropy"]')
-    param_grid["max_depth"] = Python.evaluate('[None, 10, 20, 30]')
-
+    param_grid["max_depth"] = Python.evaluate("[None, 10, 20, 30]")
 
     # Initialize Decision Tree Model 3 with GridSearchCV
     var model3 = dt2.DecisionTreeClassifier()
-    var tune = grid_search.GridSearchCV(dt2.DecisionTreeClassifier(), param_grid, cv=5)
+    var tune = grid_search.GridSearchCV(
+        dt2.DecisionTreeClassifier(), param_grid, cv=5
+    )
 
     # Fine-tuning, training, and fitting the model with GridSearchCV
     model3 = tune.fit(X_train, y_train)

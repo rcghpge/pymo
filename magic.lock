@@ -1890,6 +1890,7 @@ packages:
   - liblapack =3.9.0=29*_openblas
   - blas =2.129=openblas
   license: BSD-3-Clause
+  license_family: BSD
   size: 16917
   timestamp: 1739425832677
 - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libblas-3.9.0-29_h10e41b3_openblas.conda
@@ -1905,6 +1906,7 @@ packages:
   - blas =2.129=openblas
   - liblapack =3.9.0=29*_openblas
   license: BSD-3-Clause
+  license_family: BSD
   size: 17046
   timestamp: 1739426231872
 - conda: https://conda.anaconda.org/conda-forge/linux-64/libbrotlicommon-1.1.0-hb9d3cd8_2.conda
@@ -1980,6 +1982,7 @@ packages:
   - liblapack =3.9.0=29*_openblas
   - blas =2.129=openblas
   license: BSD-3-Clause
+  license_family: BSD
   size: 16866
   timestamp: 1739425843922
 - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libcblas-3.9.0-29_hb3479ef_openblas.conda
@@ -1993,6 +1996,7 @@ packages:
   - blas =2.129=openblas
   - liblapacke =3.9.0=29*_openblas
   license: BSD-3-Clause
+  license_family: BSD
   size: 16983
   timestamp: 1739426238799
 - conda: https://conda.anaconda.org/conda-forge/linux-64/libclang-cpp19.1-19.1.7-default_hb5137d0_1.conda
@@ -2299,6 +2303,7 @@ packages:
   - libcblas =3.9.0=29*_openblas
   - blas =2.129=openblas
   license: BSD-3-Clause
+  license_family: BSD
   size: 16865
   timestamp: 1739425856613
 - conda: https://conda.anaconda.org/conda-forge/osx-arm64/liblapack-3.9.0-29_hc9a63f6_openblas.conda
@@ -2312,6 +2317,7 @@ packages:
   - blas =2.129=openblas
   - liblapacke =3.9.0=29*_openblas
   license: BSD-3-Clause
+  license_family: BSD
   size: 16988
   timestamp: 1739426245773
 - conda: https://conda.anaconda.org/conda-forge/linux-64/libllvm19-19.1.7-ha7bfdaf_1.conda

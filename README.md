@@ -30,6 +30,7 @@ be leveraged in other programming languages and domains. See `docs` for more inf
 ├── mojoproject.toml
 ├── pymo/
 ├── test/
+├── hello.mojo
 ├── test_pymo.mojo
 ├── LICENSE
 └── README.md

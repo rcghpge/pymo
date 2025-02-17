@@ -1,14 +1,11 @@
 from time import perf_counter_ns
 from builtin.io import print
 from collections.string import String
+from pymo import libm, libpm
 from python import Python
+from test import test_libm, test_libpm
 from testing import *
 from examples.sklearn import generate_models
-
-# Testing pymo package
-fn main() raises:
-    test_pymo()
-    # test_libm()
 
 
 fn test_pymo() raises:
@@ -50,3 +47,8 @@ fn test_pymo() raises:
 
     print()
     print("SUCCESS - Execution time: " + String(elapsed_ms) + " ms")
+
+
+# Testing pymo package
+fn main() raises:
+    test_pymo()

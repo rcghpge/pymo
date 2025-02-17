@@ -1,16 +1,15 @@
 from testing import *
 from builtin import file
 from collections.string import String
-from pathlib import Path
+from pathlib import cwd, path, Path
+from pymo import libpm
 from python import Python, PythonObject
 from collections import Optional
 from sys import *
 from time import perf_counter_ns
 
-# from libpm import pd
 
-
-# Test libm module
+# Test libpm module
 fn test_libpm() raises:
     pass
 

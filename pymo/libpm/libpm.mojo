@@ -5,14 +5,14 @@ from time import perf_counter_ns
 from testing import *
 
 
-# Main execution of code
+# Libpm package
 fn main() raises:
     # time runtime execution
     var start = perf_counter_ns()
 
     # Import Python libraries
-    var np = Python.import_module("numpy")
-    var pd = Python.import_module("pandas")
+    var numpy = Python.import_module("numpy")
+    var pandas = Python.import_module("pandas")
     # var pytest = Python.import_module("pytest")
     # var sns = Python.import_module("seaborn")
     # var plt = Python.import_module("matplotlib")
