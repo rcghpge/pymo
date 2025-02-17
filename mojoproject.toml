@@ -1,6 +1,6 @@
 [project]
 authors = ["Robert Cocker <https://robertcocker.com>"]
-channels = ["conda-forge", "https://conda.modular.com/max"]
+channels = ["conda-forge", "https://conda.modular.com/max", "https://repo.prefix.dev/modular-community"]
 description = "A framework in Mojo for AI/ML/DL and other domains."
 name = "PyMo"
 platforms = ["linux-64", "osx-arm64"]

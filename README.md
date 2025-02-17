@@ -65,6 +65,9 @@ To install and set up PyMo (on Linux), follow these steps:
    magic run test
    mojo test
 
+   # Test individual Mojo source code at the file level
+   mojo -I . hello.mojo  
+
    # Initialize debugging session
    mojo test --debug
 
