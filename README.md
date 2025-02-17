@@ -22,18 +22,19 @@ be leveraged in other programming languages and domains. See `docs` for more inf
 
 ## Project Structure
 ```
-├── init.🔥
-├── data/
-├── docs/
-├── examples/
+├── LICENSE
+├── README.md
+├── __inti__.🔥
+├── data
+├── docs
+├── examples
+├── hello.mojo
 ├── magic.lock
 ├── mojoproject.toml
-├── pymo/
-├── test/
-├── hello.mojo
-├── test_pymo.mojo
-├── LICENSE
-└── README.md
+├── pymo
+├── sandbox
+├── test
+└── test_pymo.mojo
 ```
 
 ## Installation & Setup
