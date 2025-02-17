@@ -2787,6 +2787,8 @@ packages:
   - python >=3.12,<3.13.0a0
   - python_abi 3.12.* *_cp312
   - tornado >=5
+  arch: x86_64
+  platform: linux
   license: PSF-2.0
   license_family: PSF
   size: 16863
@@ -2799,6 +2801,8 @@ packages:
   - python >=3.12,<3.13.0a0
   - python_abi 3.12.* *_cp312
   - tornado >=5
+  arch: arm64
+  platform: osx
   license: PSF-2.0
   license_family: PSF
   size: 17052
@@ -3204,6 +3208,8 @@ packages:
   - python_abi 3.12.* *_cp312
   constrains:
   - numpy-base <0a0
+  arch: x86_64
+  platform: linux
   license: BSD-3-Clause
   license_family: BSD
   size: 7484186
@@ -3221,6 +3227,8 @@ packages:
   - python_abi 3.12.* *_cp312
   constrains:
   - numpy-base <0a0
+  arch: arm64
+  platform: osx
   license: BSD-3-Clause
   license_family: BSD
   size: 6073136
@@ -3320,6 +3328,8 @@ packages:
   - python-tzdata >=2022a
   - python_abi 3.12.* *_cp312
   - pytz >=2020.1,<2024.2
+  arch: x86_64
+  platform: linux
   license: BSD-3-Clause
   license_family: BSD
   size: 15436913
@@ -3338,6 +3348,8 @@ packages:
   - python-tzdata >=2022a
   - python_abi 3.12.* *_cp312
   - pytz >=2020.1,<2024.2
+  arch: arm64
+  platform: osx
   license: BSD-3-Clause
   license_family: BSD
   size: 14470437
@@ -3345,6 +3357,8 @@ packages:
 - conda: https://conda.anaconda.org/conda-forge/linux-64/pandoc-3.6.3-ha770c72_0.conda
   sha256: a7392b0d5403676b0b3ab9ff09c1e65d8ab9e1c34349bba9be605d76cf622640
   md5: 16ff7c679250dc09f9732aab14408d2c
+  arch: x86_64
+  platform: linux
   license: GPL-2.0-or-later
   license_family: GPL
   size: 21334851
@@ -3352,6 +3366,8 @@ packages:
 - conda: https://conda.anaconda.org/conda-forge/osx-arm64/pandoc-3.6.3-hce30654_0.conda
   sha256: 2013114d2405b4a4e9d9b62522eb09111e1b9e3cd2e902a42e7ccc8a88a2b05a
   md5: 41603d280df06636257acd79ea326be9
+  arch: arm64
+  platform: osx
   license: GPL-2.0-or-later
   license_family: GPL
   size: 23273280
@@ -4161,6 +4177,8 @@ packages:
   - python_abi 3.12.* *_cp312
   - scipy
   - threadpoolctl >=3.1.0
+  arch: x86_64
+  platform: linux
   license: BSD-3-Clause
   license_family: BSD
   size: 10628698
@@ -4179,6 +4197,8 @@ packages:
   - python_abi 3.12.* *_cp312
   - scipy
   - threadpoolctl >=3.1.0
+  arch: arm64
+  platform: osx
   license: BSD-3-Clause
   license_family: BSD
   size: 9769459
