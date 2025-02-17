@@ -6,7 +6,6 @@ Importing features still a WIP. Will look more into package and module interoper
 See link here for more information: https://docs.modular.com/mojo/manual/packages
 """
 
-
 fn test_script() raises:
     # Variables do not seem natively modular.
     # var np = numpy # from libpm - pops an error
