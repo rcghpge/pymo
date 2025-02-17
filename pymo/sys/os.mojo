@@ -1,7 +1,7 @@
 from sys.info import *
 
 
-fn get_os_system() -> String:
+fn get_os() -> String:
     if os_is_linux():
         return "Linux"
     elif os_is_macos():
@@ -12,7 +12,7 @@ fn get_os_system() -> String:
         return "Unknown OS"
 
 
-fn get_target_arch() -> String:
+fn get_arch() -> String:
     if is_32bit():
         return "32-bit"
     elif is_64bit():
@@ -40,11 +40,3 @@ fn get_processors() -> String:
         return "Failed to detect microprocessors"
 
 
-fn main() raises:
-    var os_name = get_os_system()
-    var os_arch = get_target_arch()
-    var os_proc = get_processors()
-    print("System Overview:")
-    print("Operating System:", os_name)
-    print("System Architecture:", os_arch)
-    print("Microprocessor System:", os_proc)

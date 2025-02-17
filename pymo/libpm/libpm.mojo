@@ -6,7 +6,6 @@ from python import Python, PythonObject
 fn get_numpy() raises -> PythonObject:
     return Python.import_module("numpy")
 
-
 fn get_pandas() raises -> PythonObject:
     return Python.import_module("pandas")
 

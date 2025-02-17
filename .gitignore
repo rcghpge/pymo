@@ -9,6 +9,10 @@
 *.📦
 *.\U0001F4E6
 .ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
 # Other configs
 ../ExtraMojo/
