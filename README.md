@@ -104,7 +104,7 @@ Here's how PyMo interacts with some well-known Python libraries and frameworks:
 Currently proofing, testing, and benchmarking frameworks and libraries.
 
 ### Getting Started
-Check out `examples/` and `test/` folders for sample code demonstrating how to use PyMo with various AI/ML/DL tasks and initial framework draft of PyMo.
+Check out `examples/` and `test/` directories for sample code demonstrating how to use PyMo for building out packages and modules in Mojo. The `tests/` directory is port testing ecosystems and the `sandbox/` directory is for ecosystem development eg libraries, Mojo, packages, modules etc.
 
 **MAX**
 - check out [MAX](https://www.modular.com/max) - an AI inference platform built by Modular
