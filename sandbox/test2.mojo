@@ -1,5 +1,5 @@
 from builtin.dtype import DType
-from pymo.libpm import get_numpy
+from pymo.libpm import numpy
 from python import Python
 from tensor import Tensor, TensorShape
 from test import ndarray_to_tensor
@@ -12,7 +12,7 @@ fn main() raises:
     Tensors of rank higher than 1 probably need workaround as well.
     """
     # Import NumPy
-    var np = get_numpy()
+    var np = numpy()
 
     # Create NumPy array(s)
     var np_array = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], dtype=np.int32)
