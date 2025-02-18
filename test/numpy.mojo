@@ -18,7 +18,7 @@ See the original repository here: https://gitlab.com/hylkedonker/bridge
 
 Bridge currently runs on an older version of MAX so I could not add it to PyMo's build currently.
 """
-from pymo.libpm import get_numpy
+from pymo.libpm import numpy
 from python import Python, PythonObject
 from tensor import Tensor, TensorShape, TensorSpec
 from utils.index import Index
@@ -72,7 +72,7 @@ def tensor_to_ndarray(tensor_mojo: Tensor) -> PythonObject:
         tensor_mojo: Mojo tensor to convert to NumPy array.
     Returns: Numpy ndarray shaped like `tensor_mojo`.
     """
-    var np = get_numpy()
+    var np = numpy()
 
     # Flatten tensor to a vector and create NumPy array.
     var n_elements = tensor_mojo.num_elements()
