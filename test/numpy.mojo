@@ -18,7 +18,7 @@ See the original repository here: https://gitlab.com/hylkedonker/bridge
 
 Bridge currently runs on an older version of MAX so I could not add it to PyMo's build currently.
 """
-from libpm import get_numpy
+from pymo.libpm import get_numpy
 from python import Python, PythonObject
 from tensor import Tensor, TensorShape, TensorSpec
 from utils.index import Index

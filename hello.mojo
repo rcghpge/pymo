@@ -1,9 +1,7 @@
-# Mojo's time package
 from time import perf_counter_ns
 from collections.string import String
 
 
-# Main function:
 fn main() raises:
     var start = perf_counter_ns()
     print("Welcome to programming in Mojo!" + chr(0x1F525))
