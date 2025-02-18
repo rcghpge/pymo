@@ -2,7 +2,7 @@ from testing import *
 from builtin import file
 from collections.string import String
 from pathlib import cwd, path, Path
-from pymo import libpm
+from pymo.libpm import get_numpy
 from python import Python, PythonObject
 from collections import Optional
 from sys import *
@@ -11,7 +11,7 @@ from time import perf_counter_ns
 
 # Test libpm module
 fn test_libpm() raises:
-    pass
+    var np = get_numpy()
 
 
 # Mojo Tests
