@@ -30,18 +30,6 @@ fn main() raises:
     mojo_tensor = ndarray_to_tensor[DType.int32](array4)
 
     # Convert NumPy array to Mojo tensor
-    # var shape = TensorShape(result.shape)
-
-    # Create an empty Mojo tensor with the same shape and appropriate data type
-    # var mojo_tensor = Tensor[DType.float32](shape)
-
-    # Iterate over the NumPy array and assign values to the Mojo tensor
-    # for i in range(result.size):
-    # Retrieve the item as a Python float and then cast to Float32
-    # var py_float = result.item(i)  # PythonObject
-    # var mojo_float = Float64(py_float)
-    # mojo_tensor[i] = Float32(mojo_float)
-
     mojo_tensor2 = ndarray_to_tensor[DType.int32](result)
 
     # Print the tensor(s)
