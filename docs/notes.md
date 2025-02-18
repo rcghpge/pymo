@@ -35,4 +35,7 @@ For a high-performance, versatile language tailored for modern systems and AI-dr
 ### Software Architecture Analysis
 - I added Pandoc functionality as `mojo doc` currently only converts mojo files to json files. Pandoc is a universal markup converter 
 written in Haskell. Mojo open source currently has Modo for documentation generation for Mojo projects written in Go as well as the 
-EmberJson project which parses json files written in Mojo. 
+EmberJson project which parses json files written in Mojo.
+- I installed py2mojo. Py2mojo automates converting Python source code to Mojo. It is a promising tool, but because of Mojo's continued
+development, it is a bit out of date. It can be built upon for Mojo's ecosystem. See repository's link here: https://github.com/msaelices/py2mojo
+ 
