@@ -9,7 +9,7 @@ version = "0.1.0"
 [tasks]
 test = "magic run mojo test test_pymo.mojo && mojo run test/test_libm.mojo && mojo run test/test_libpm.mojo && mojo run test/test_sys.mojo"
 format = "magic run mojo format ./"
-build = "magic run mojo package pymo -o pymo.\U0001F4E6"
+build = "magic run mojo package pymo -o pymo.mojopkg"
 
 [dependencies]
 max = ">=25.1.0,<26"

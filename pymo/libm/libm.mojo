@@ -5,7 +5,7 @@ from time import perf_counter_ns
 
 
 # Main execution of code
-fn main() raises:
+fn get_libm() raises:
     # time runtime execution
     var start = perf_counter_ns()
 
