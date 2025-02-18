@@ -1,4 +1,5 @@
 # Data preprocessing example
+from pymo.libpm import numpy, pandas
 from python import Python, PythonObject
 
 
@@ -7,8 +8,8 @@ fn main() raises:
     OOP and Python to Mojo interoperability is still in active development internally
     @ Modular and in collaboration with the Mojo open source community.
     """
-    var np = Python.import_module("numpy")
-    var pd = Python.import_module("pandas")
+    var np = numpy()
+    var pd = pandas()
     var plt = Python.import_module("matplotlib.pyplot")
     var sns = Python.import_module("seaborn")
     var random = Python.import_module("random")

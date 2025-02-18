@@ -1,8 +1,8 @@
 from builtin.io import print
 from collections.string import String
 from examples.sklearn import generate_models
-from pymo.libpm import get_numpy
-from pymo.sys.os import get_os
+from pymo.libpm import numpy
+from pymo.sys.os import os
 from time import perf_counter_ns
 
 
@@ -11,10 +11,10 @@ fn test_pymo() raises:
     # Libm module
 
     # Libpm module
-    var test = get_numpy()
+    var test = numpy()
 
     # Sys module
-    var test2 = get_os()
+    var test2 = os()
 
     # print("Testing Sci-kit Learn framework")
     # generate_models()

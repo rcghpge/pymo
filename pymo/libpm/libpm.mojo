@@ -3,11 +3,11 @@ from collections.string import String
 from python import Python, PythonObject
 
 
-fn get_numpy() raises -> PythonObject:
+fn numpy() raises -> PythonObject:
     return Python.import_module("numpy")
 
 
-fn get_pandas() raises -> PythonObject:
+fn pandas() raises -> PythonObject:
     return Python.import_module("pandas")
 
     # var pytest = Python.import_module("pytest")

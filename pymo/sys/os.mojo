@@ -1,7 +1,7 @@
 from sys.info import *
 
 
-fn get_os() -> String:
+fn os() -> String:
     if os_is_linux():
         return "Linux"
     elif os_is_macos():
@@ -12,7 +12,7 @@ fn get_os() -> String:
         return "Unknown OS"
 
 
-fn get_arch() -> String:
+fn arch() -> String:
     if is_32bit():
         return "32-bit"
     elif is_64bit():
@@ -23,7 +23,7 @@ fn get_arch() -> String:
         return "Failed to detect system architecture"
 
 
-fn get_processors() -> String:
+fn processors() -> String:
     if is_amd_gpu():
         return "AMD"
     elif has_nvidia_gpu_accelerator():

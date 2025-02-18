@@ -1,13 +1,13 @@
-from pymo.sys.os import get_os, get_arch, get_processors
+from pymo.sys.os import os, arch, processors
 from python import Python, PythonObject
 from time import perf_counter_ns
 
 
 # Test sys module
 fn test_sys() raises:
-    var os = get_os()
-    var arch = get_arch()
-    var processors = get_processors()
+    var os = os()
+    var arch = arch()
+    var processors = processors()
 
 
 # Main execution of code

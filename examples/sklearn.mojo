@@ -7,12 +7,13 @@ Muhammad Taha - https://rajataha.vercel.app
 # PyMo Scikit-learn Example
 from collections.dict import Dict
 from collections.list import List
+from pymo.libpm import pandas
 from python import Python, PythonObject, TypedPythonObject
 
 
 fn generate_models() raises:
     # Import Packages/Libraries
-    var pd = Python.import_module("pandas")
+    var pd = pandas()
     var sklearn_datasets = Python.import_module("sklearn.datasets")
 
     # Load the Iris dataset

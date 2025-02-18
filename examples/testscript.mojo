@@ -1,7 +1,7 @@
-from pymo.libpm import get_numpy
+from pymo.libpm import numpy
 
 
 fn main() raises:
-    var np = get_numpy()
+    var np = numpy()
     var a = np.array([1, 2, 3])
     print(a)

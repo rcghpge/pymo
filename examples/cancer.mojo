@@ -5,13 +5,14 @@ framework in PyMo. Sparing the details, data preprocessing is crucial in ML and 
 domains. This is an example where the framework can be utilized for applications
 in cancer research and other domains in medicine.
 """
-from python import Python, PythonObject, TypedPythonObject
 from builtin.dtype import DType
+from pymo.libpm import numpy, pandas
+from python import Python, PythonObject, TypedPythonObject
 
 
 fn preprocess() raises:
-    var np = Python.import_module("numpy")
-    var pd = Python.import_module("pandas")
+    var np = numpy()
+    var pd = pandas()
     var plt = Python.import_module("matplotlib.pyplot")
     var math = Python.import_module("math")
 
