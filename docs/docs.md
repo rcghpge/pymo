@@ -14,3 +14,4 @@
 - [Seaborn](https://seaborn.pydata.org/) - Statistical data visualization
 - [JAX](https://docs.jax.dev/en/latest/) - Machine learning framework for Python
 - [Pytest](https://docs.pytest.org/en/stable/) - Pytho testing framework 
+- [XGBoost](https://xgboost.ai/) - Scalable and flexible gradient boosting
