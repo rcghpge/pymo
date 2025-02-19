@@ -10,12 +10,37 @@ fn numpy() raises -> PythonObject:
 fn pandas() raises -> PythonObject:
     return Python.import_module("pandas")
 
-    # var pytest = Python.import_module("pytest")
-    # var sns = Python.import_module("seaborn")
-    # var plt = Python.import_module("matplotlib")
-    # var skl = Python.import_module("scikit-learn")
-    # var scipy = Python.import_module("scipy")
+
+fn seaborn() raises -> PythonObject:
+    return Python.import_module("seaborn")
+
+
+fn pytest() raises -> PythonObject:
+    return Python.import_module("pytest")
+
+
+fn scipy() raises -> PythonObject:
+    return Python.import_module("scipy")
+
+
+fn sklearn() raises -> PythonObject:
+    return Python.import_module("sklearn")
+
+
+fn random() raises -> PythonObject:
+    return Python.import_module("random")
+
+
+fn math() raises -> PythonObject:
+    return Python.import_module("math")
+
+
+fn matplotlib_pyplot() raises -> PythonObject:
+    return Python.import_module("matplotlib.pyplot")
+
+
+fn polars() raises -> PythonObject:
+    return Python.import_module("polars")
+
     # var joblib = Python.import_module("joblib")
     # var threadpoolctl = Python.import_module("threadpoolctl")
-    # var random = Python.import_module("random") # pass
-    # var math = Python.import_module("math") # pass
