@@ -10,12 +10,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ===----------------------------------------------------------------------=== #
-
 from max.engine import InferenceSession
 from max.graph import Graph, TensorType, ops
 from max.tensor import Tensor, TensorShape
 
-
+# Example MAX model from the MAX team. Testing PyMo's framework.
 # This example highlights the very basic API structure around building a MAX
 # Graph model and executing it through the MAX engine APIS.
 # Simply run this mojo file to create, load, and execute this simple model.
