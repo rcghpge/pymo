@@ -95,8 +95,6 @@ Here's how PyMo interacts with some well-known Python libraries and frameworks:
 - **pytest** Testing framework for Python.
 - and more.
 
-Currently proofing, testing, and benchmarking frameworks and libraries.
-
 ### Getting Started
 Check out `examples/` and `test/` directories for sample code demonstrating how to use PyMo for building out packages and modules in Mojo and AI/ML/DL methods. The `test/` directory is for port testing ecosystems and the `sandbox/` directory is for ecosystem development eg libraries, Mojo, packages, modules etc.
 
